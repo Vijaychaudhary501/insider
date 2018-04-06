@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="TrebuchetMS.ttf">
+            <string>TrebuchetMS</string>
+        </array>
+        <array key="TrebuchetMSBold.ttf">
+            <string>TrebuchetMS-Bold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="CreatePostCell" rowHeight="116" id="KGk-i7-Jjw" customClass="SG_CreatePostCell" customModule="Student_GPA" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="404" height="116"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" ambiguous="YES" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="404" height="115.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="EkB-6E-MQI">
+                        <rect key="frame" x="0.0" y="8" width="404" height="100"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="User_profile" translatesAutoresizingMaskIntoConstraints="NO" id="hGZ-Id-Evt" customClass="RemoteImageView">
+                                <rect key="frame" x="13" y="5" width="50" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="50" id="OoK-AI-LMb"/>
+                                    <constraint firstAttribute="height" constant="50" id="gfd-jC-4sd"/>
+                                </constraints>
+                            </imageView>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Say Something :)" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="2y9-KB-vg4">
+                                <rect key="frame" x="78" y="0.0" width="266" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="o6Y-re-vQE"/>
+                                </constraints>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" name="TrebuchetMS-Bold" family="Trebuchet MS" pointSize="20"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xwZ-Z5-g0Y">
+                                <rect key="frame" x="354" y="0.0" width="50" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="50" id="g8b-6q-wbf"/>
+                                </constraints>
+                                <state key="normal" image="SendBtn"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7sM-3B-uWQ">
+                                <rect key="frame" x="78" y="50" width="163" height="50"/>
+                                <fontDescription key="fontDescription" name="TrebuchetMS" family="Trebuchet MS" pointSize="15"/>
+                                <inset key="titleEdgeInsets" minX="10" minY="0.0" maxX="-5" maxY="0.0"/>
+                                <state key="normal" title="Photo" image="GalaryPostIcon">
+                                    <color key="titleColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wGm-Ml-Pwt">
+                                <rect key="frame" x="241" y="50" width="163" height="50"/>
+                                <fontDescription key="fontDescription" name="TrebuchetMS" family="Trebuchet MS" pointSize="15"/>
+                                <inset key="titleEdgeInsets" minX="5" minY="0.0" maxX="-5" maxY="0.0"/>
+                                <inset key="imageEdgeInsets" minX="-20" minY="0.0" maxX="5" maxY="0.0"/>
+                                <state key="normal" title="Location" image="locationIcone">
+                                    <color key="titleColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="hGZ-Id-Evt" firstAttribute="leading" secondItem="EkB-6E-MQI" secondAttribute="leadingMargin" constant="5" id="45y-8F-L89"/>
+                            <constraint firstItem="hGZ-Id-Evt" firstAttribute="centerY" secondItem="EkB-6E-MQI" secondAttribute="centerY" multiplier="0.6" id="BG4-wa-cZi"/>
+                            <constraint firstItem="7sM-3B-uWQ" firstAttribute="width" secondItem="wGm-Ml-Pwt" secondAttribute="width" id="Dak-A0-yxO"/>
+                            <constraint firstAttribute="trailing" secondItem="2y9-KB-vg4" secondAttribute="trailing" constant="60" id="Obd-5k-UbI"/>
+                            <constraint firstItem="wGm-Ml-Pwt" firstAttribute="height" secondItem="7sM-3B-uWQ" secondAttribute="height" id="REH-RX-ASK"/>
+                            <constraint firstItem="7sM-3B-uWQ" firstAttribute="height" secondItem="2y9-KB-vg4" secondAttribute="height" id="UK1-an-P7i"/>
+                            <constraint firstItem="2y9-KB-vg4" firstAttribute="leading" secondItem="hGZ-Id-Evt" secondAttribute="trailing" constant="15" id="Uzh-F4-BJx"/>
+                            <constraint firstAttribute="trailing" secondItem="xwZ-Z5-g0Y" secondAttribute="trailing" id="b5i-xW-Otw"/>
+                            <constraint firstAttribute="height" constant="100" id="c4l-9i-vNg"/>
+                            <constraint firstItem="wGm-Ml-Pwt" firstAttribute="top" secondItem="7sM-3B-uWQ" secondAttribute="top" id="gyd-Sz-Lly"/>
+                            <constraint firstItem="xwZ-Z5-g0Y" firstAttribute="height" secondItem="2y9-KB-vg4" secondAttribute="height" id="hoc-nN-CAe"/>
+                            <constraint firstItem="2y9-KB-vg4" firstAttribute="top" secondItem="hGZ-Id-Evt" secondAttribute="top" constant="-5" id="kZO-Sl-u52"/>
+                            <constraint firstItem="7sM-3B-uWQ" firstAttribute="leading" secondItem="2y9-KB-vg4" secondAttribute="leading" id="klU-eq-CPs"/>
+                            <constraint firstAttribute="trailing" secondItem="wGm-Ml-Pwt" secondAttribute="trailing" id="lc1-ZO-MGB"/>
+                            <constraint firstItem="wGm-Ml-Pwt" firstAttribute="centerY" secondItem="7sM-3B-uWQ" secondAttribute="centerY" id="mkV-vf-skz"/>
+                            <constraint firstItem="7sM-3B-uWQ" firstAttribute="top" secondItem="2y9-KB-vg4" secondAttribute="bottom" id="pfp-GO-xoz"/>
+                            <constraint firstItem="wGm-Ml-Pwt" firstAttribute="leading" secondItem="7sM-3B-uWQ" secondAttribute="trailing" id="pjI-pQ-WFe"/>
+                            <constraint firstItem="wGm-Ml-Pwt" firstAttribute="width" secondItem="7sM-3B-uWQ" secondAttribute="width" id="qJG-Vm-TOk"/>
+                            <constraint firstItem="xwZ-Z5-g0Y" firstAttribute="centerY" secondItem="2y9-KB-vg4" secondAttribute="centerY" id="vke-XO-kWF"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottomMargin" secondItem="EkB-6E-MQI" secondAttribute="bottom" id="3BK-dg-Q1d"/>
+                    <constraint firstAttribute="trailing" secondItem="EkB-6E-MQI" secondAttribute="trailing" id="HOd-EW-WCf"/>
+                    <constraint firstItem="EkB-6E-MQI" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="JBx-EC-f5H"/>
+                    <constraint firstAttribute="topMargin" secondItem="EkB-6E-MQI" secondAttribute="top" id="vFZ-xY-eem"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="locationBtn" destination="wGm-Ml-Pwt" id="sBA-Ij-s8Z"/>
+                <outlet property="profileImage" destination="hGZ-Id-Evt" id="6a4-eE-cB1"/>
+                <outlet property="selectPhotoBtn" destination="7sM-3B-uWQ" id="VTh-UE-J7r"/>
+                <outlet property="sendBtn" destination="xwZ-Z5-g0Y" id="3MX-yA-EY0"/>
+                <outlet property="txtfldSaySomething" destination="2y9-KB-vg4" id="dcD-wn-u9I"/>
+            </connections>
+            <point key="canvasLocation" x="67" y="88"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="GalaryPostIcon" width="27" height="18"/>
+        <image name="SendBtn" width="29" height="20"/>
+        <image name="User_profile" width="139" height="139"/>
+        <image name="locationIcone" width="15" height="18"/>
+    </resources>
+</document>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11542" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="ContactCell" rowHeight="103" id="KGk-i7-Jjw" customClass="ContactCell" customModule="Student_GPA" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="341" height="103"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="341" height="102"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="User_profile" translatesAutoresizingMaskIntoConstraints="NO" id="cIg-Lk-4ye" customClass="RemoteImageView">
+                        <rect key="frame" x="18" y="16" width="70" height="70"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="70" id="Joe-cN-EuZ"/>
+                            <constraint firstAttribute="width" constant="70" id="Z6A-Xg-1HC"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Shailesh Shah" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DsN-dH-92p">
+                        <rect key="frame" x="96" y="16.5" width="192" height="70"/>
+                        <fontDescription key="fontDescription" name="TrebuchetMS" family="Trebuchet MS" pointSize="20"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="bt2-v8-ctU">
+                        <rect key="frame" x="298" y="39" width="25" height="25"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="25" id="DBc-xQ-0U0"/>
+                            <constraint firstAttribute="width" constant="25" id="Ong-nm-IsH"/>
+                        </constraints>
+                    </imageView>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uO8-Tu-ieV">
+                        <rect key="frame" x="297.5" y="39" width="25" height="25"/>
+                        <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <state key="normal" backgroundImage="ContactNormal"/>
+                    </button>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="cIg-Lk-4ye" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="10" id="7Xm-0H-7U4"/>
+                    <constraint firstItem="DsN-dH-92p" firstAttribute="height" secondItem="cIg-Lk-4ye" secondAttribute="height" id="Gs7-jG-JU5"/>
+                    <constraint firstItem="uO8-Tu-ieV" firstAttribute="centerX" secondItem="bt2-v8-ctU" secondAttribute="centerX" id="MoH-Mi-8R2"/>
+                    <constraint firstItem="bt2-v8-ctU" firstAttribute="leading" secondItem="DsN-dH-92p" secondAttribute="trailing" constant="10" id="SH2-lg-Bpf"/>
+                    <constraint firstItem="uO8-Tu-ieV" firstAttribute="width" secondItem="bt2-v8-ctU" secondAttribute="width" id="bRg-TZ-fo8"/>
+                    <constraint firstItem="uO8-Tu-ieV" firstAttribute="centerY" secondItem="bt2-v8-ctU" secondAttribute="centerY" id="cEI-EL-IYA"/>
+                    <constraint firstItem="DsN-dH-92p" firstAttribute="leading" secondItem="cIg-Lk-4ye" secondAttribute="trailing" constant="8" id="e06-B1-wZZ"/>
+                    <constraint firstItem="cIg-Lk-4ye" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="ge9-IE-xYE"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="bt2-v8-ctU" secondAttribute="trailing" constant="10" id="iSD-Jp-S8n"/>
+                    <constraint firstItem="bt2-v8-ctU" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="iyi-j0-Jwd"/>
+                    <constraint firstItem="DsN-dH-92p" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="ncD-ZW-fHH"/>
+                    <constraint firstItem="uO8-Tu-ieV" firstAttribute="height" secondItem="bt2-v8-ctU" secondAttribute="height" id="yTH-G0-nmN"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="profileImageView" destination="cIg-Lk-4ye" id="dbd-eC-mdD"/>
+                <outlet property="selectBtn" destination="uO8-Tu-ieV" id="YMC-yi-zbZ"/>
+                <outlet property="selectImgView" destination="bt2-v8-ctU" id="Ypn-3W-Ez8"/>
+                <outlet property="userLbl" destination="DsN-dH-92p" id="VjX-1A-vU0"/>
+            </connections>
+            <point key="canvasLocation" x="55.5" y="88.5"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="ContactNormal" width="22" height="22"/>
+        <image name="User_profile" width="139" height="139"/>
+    </resources>
+</document>

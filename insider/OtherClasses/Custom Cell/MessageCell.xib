@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="TrebuchetMS.ttf">
+            <string>TrebuchetMS</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="messagecell" rowHeight="29" id="KGk-i7-Jjw" customClass="MessageCell" customModule="Student_GPA" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="100"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="99.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Messageprofile" translatesAutoresizingMaskIntoConstraints="NO" id="9t3-rd-NXO" customClass="RemoteImageView">
+                        <rect key="frame" x="26" y="15" width="70" height="70"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="70" id="GmG-nB-a7v"/>
+                            <constraint firstAttribute="height" constant="70" id="jvQ-WV-vLv"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Raj Patel commented on his status" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NSG-eK-t0z">
+                        <rect key="frame" x="111" y="2.5" width="194" height="60"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="60" id="I66-vc-Pac"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="TrebuchetMS" family="Trebuchet MS" pointSize="20"/>
+                        <color key="textColor" red="1" green="0.51764705879999995" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Mar 17 at 11:13" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Qgi-mQ-A8e">
+                        <rect key="frame" x="111" y="43" width="194" height="36"/>
+                        <fontDescription key="fontDescription" name="TrebuchetMS" family="Trebuchet MS" pointSize="17"/>
+                        <color key="textColor" red="0.12941176469999999" green="0.25098039220000001" blue="0.60392156860000001" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1:45pm" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wiE-hD-miS">
+                        <rect key="frame" x="308" y="2.5" width="40" height="60"/>
+                        <fontDescription key="fontDescription" name="TrebuchetMS" family="Trebuchet MS" pointSize="12"/>
+                        <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="wiE-hD-miS" firstAttribute="leading" secondItem="NSG-eK-t0z" secondAttribute="trailing" constant="3" id="E5S-pc-4cG"/>
+                    <constraint firstItem="9t3-rd-NXO" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="10" id="LMK-GY-hhd"/>
+                    <constraint firstItem="NSG-eK-t0z" firstAttribute="leading" secondItem="9t3-rd-NXO" secondAttribute="trailing" constant="15" id="TzC-TL-ZO5"/>
+                    <constraint firstItem="9t3-rd-NXO" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="VcS-PT-r4W"/>
+                    <constraint firstAttribute="trailing" secondItem="NSG-eK-t0z" secondAttribute="trailing" constant="70" id="XjZ-tK-BRK"/>
+                    <constraint firstItem="Qgi-mQ-A8e" firstAttribute="trailing" secondItem="NSG-eK-t0z" secondAttribute="trailing" id="dIt-Xa-8u7"/>
+                    <constraint firstItem="NSG-eK-t0z" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" multiplier="0.65" id="eDJ-eZ-PjR"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="Qgi-mQ-A8e" secondAttribute="bottom" constant="10" id="gAU-mj-aGF"/>
+                    <constraint firstItem="wiE-hD-miS" firstAttribute="height" secondItem="NSG-eK-t0z" secondAttribute="height" id="scd-Xs-1aa"/>
+                    <constraint firstItem="wiE-hD-miS" firstAttribute="centerY" secondItem="NSG-eK-t0z" secondAttribute="centerY" id="wM7-eI-SST"/>
+                    <constraint firstItem="Qgi-mQ-A8e" firstAttribute="top" secondItem="NSG-eK-t0z" secondAttribute="baseline" constant="-15" id="yCR-03-ycx"/>
+                    <constraint firstItem="Qgi-mQ-A8e" firstAttribute="leading" secondItem="NSG-eK-t0z" secondAttribute="leading" id="ygh-Ja-dMr"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="detailMessageLbl" destination="Qgi-mQ-A8e" id="n7o-VX-SEY"/>
+                <outlet property="lblTime" destination="wiE-hD-miS" id="FiV-Um-aIR"/>
+                <outlet property="userNameLbl" destination="NSG-eK-t0z" id="fgG-Uc-QmP"/>
+                <outlet property="userProfileImage" destination="9t3-rd-NXO" id="xIL-1H-AN3"/>
+            </connections>
+            <point key="canvasLocation" x="71.5" y="87"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="Messageprofile" width="91" height="81"/>
+    </resources>
+</document>

@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11542" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="GroupstudyCell" rowHeight="170" id="KGk-i7-Jjw" customClass="GroupstudyviewCell" customModule="Student_GPA" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="380" height="170"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="380" height="170"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Invited by :" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JWn-KV-ofs" userLabel="Invited by">
+                        <rect key="frame" x="24" y="18" width="97" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="97" id="rkk-Ib-1Yr"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="TrebuchetMS-Bold" family="Trebuchet MS" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Prashant A" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Y8u-GH-gh8">
+                        <rect key="frame" x="118" y="18" width="238" height="20"/>
+                        <fontDescription key="fontDescription" name="TrebuchetMS" family="Trebuchet MS" pointSize="17"/>
+                        <color key="textColor" red="1" green="0.51764705879999995" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Biomedical Sciences" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4kR-PO-F0k">
+                        <rect key="frame" x="24" y="46" width="332" height="20"/>
+                        <fontDescription key="fontDescription" name="TrebuchetMS" family="Trebuchet MS" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Date : 29/03/2017" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4VD-Ya-gA4">
+                        <rect key="frame" x="24" y="74" width="298" height="20"/>
+                        <fontDescription key="fontDescription" name="TrebuchetMS" family="Trebuchet MS" pointSize="17"/>
+                        <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Time ! 11:35" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fJz-Iq-hP0">
+                        <rect key="frame" x="24" y="102" width="298" height="20"/>
+                        <fontDescription key="fontDescription" name="TrebuchetMS" family="Trebuchet MS" pointSize="17"/>
+                        <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lu7-ay-mXl" userLabel="a">
+                        <rect key="frame" x="336" y="74" width="20" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="20" id="Nns-vd-kN7"/>
+                            <constraint firstAttribute="width" constant="20" id="WUb-dt-qnB"/>
+                        </constraints>
+                        <state key="normal" backgroundImage="AcceptBlack"/>
+                    </button>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="l3H-ne-peU" userLabel="c">
+                        <rect key="frame" x="336" y="46" width="20" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="20" id="ThH-Wr-gXL"/>
+                            <constraint firstAttribute="width" constant="20" id="jJG-xl-nzp"/>
+                        </constraints>
+                        <state key="normal" backgroundImage="Cancelblack"/>
+                    </button>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="location" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4WW-RS-ybY">
+                        <rect key="frame" x="24" y="130" width="298" height="20"/>
+                        <fontDescription key="fontDescription" name="TrebuchetMS" family="Trebuchet MS" pointSize="17"/>
+                        <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="Y8u-GH-gh8" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="10" id="28U-Yl-hWC"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="l3H-ne-peU" secondAttribute="trailing" constant="16" id="3eK-aC-9UK"/>
+                    <constraint firstItem="4kR-PO-F0k" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="16" id="6BM-nB-duZ"/>
+                    <constraint firstItem="4VD-Ya-gA4" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="16" id="7nm-K0-a8V"/>
+                    <constraint firstItem="l3H-ne-peU" firstAttribute="centerY" secondItem="4kR-PO-F0k" secondAttribute="centerY" id="9SL-LA-vsN"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="4kR-PO-F0k" secondAttribute="trailing" constant="16" id="9ZI-Ws-ws6"/>
+                    <constraint firstItem="fJz-Iq-hP0" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="16" id="Ag8-wt-eFz"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="fJz-Iq-hP0" secondAttribute="trailing" constant="50" id="FGC-DI-wPn"/>
+                    <constraint firstItem="4WW-RS-ybY" firstAttribute="trailing" secondItem="fJz-Iq-hP0" secondAttribute="trailing" id="FfV-Ie-JOz"/>
+                    <constraint firstItem="fJz-Iq-hP0" firstAttribute="top" secondItem="4VD-Ya-gA4" secondAttribute="bottom" constant="8" id="IR3-r9-AIR"/>
+                    <constraint firstItem="4WW-RS-ybY" firstAttribute="top" secondItem="fJz-Iq-hP0" secondAttribute="bottom" constant="8" id="JGe-4g-obR"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="Y8u-GH-gh8" secondAttribute="trailing" constant="16" id="MIf-dT-p0b"/>
+                    <constraint firstItem="4WW-RS-ybY" firstAttribute="leading" secondItem="fJz-Iq-hP0" secondAttribute="leading" id="Ptj-4q-D3z"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="lu7-ay-mXl" secondAttribute="trailing" constant="16" id="Vlp-Mo-rKM"/>
+                    <constraint firstItem="Y8u-GH-gh8" firstAttribute="leading" secondItem="JWn-KV-ofs" secondAttribute="trailing" constant="-3" id="WtU-fB-Rqu"/>
+                    <constraint firstItem="4kR-PO-F0k" firstAttribute="top" secondItem="JWn-KV-ofs" secondAttribute="bottom" constant="8" id="bMS-Wh-nH1"/>
+                    <constraint firstItem="JWn-KV-ofs" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="10" id="dDY-6d-WQS"/>
+                    <constraint firstItem="lu7-ay-mXl" firstAttribute="centerY" secondItem="4VD-Ya-gA4" secondAttribute="centerY" id="nNt-Sm-X1G"/>
+                    <constraint firstItem="JWn-KV-ofs" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="16" id="sbc-CP-01o"/>
+                    <constraint firstItem="4VD-Ya-gA4" firstAttribute="top" secondItem="4kR-PO-F0k" secondAttribute="bottom" constant="8" id="u5n-vg-MyV"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="4VD-Ya-gA4" secondAttribute="trailing" constant="50" id="uVa-eT-n0W"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="acceptBtn" destination="lu7-ay-mXl" id="7v0-dt-Im7"/>
+                <outlet property="lblDate" destination="4VD-Ya-gA4" id="XNp-VE-b6C"/>
+                <outlet property="lblInviterName" destination="Y8u-GH-gh8" id="KHQ-XA-WYV"/>
+                <outlet property="lblTime" destination="fJz-Iq-hP0" id="JK6-Yr-O6M"/>
+                <outlet property="lblTitle" destination="4kR-PO-F0k" id="mUZ-xd-yRU"/>
+                <outlet property="locationLbl" destination="4WW-RS-ybY" id="OAW-Im-gMs"/>
+                <outlet property="rejectBtn" destination="l3H-ne-peU" id="4vE-WM-aoN"/>
+            </connections>
+            <point key="canvasLocation" x="55" y="115"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="AcceptBlack" width="20" height="20"/>
+        <image name="Cancelblack" width="20" height="20"/>
+    </resources>
+</document>

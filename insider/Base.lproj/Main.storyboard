@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="m1G-6v-i5V">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="TrebuchetMS.ttf">
+            <string>TrebuchetMS</string>
+        </array>
+        <array key="TrebuchetMSBold.ttf">
+            <string>TrebuchetMS-Bold</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--SplashVC-->
+        <scene sceneID="WLm-JS-zbr">
+            <objects>
+                <viewController id="m1G-6v-i5V" customClass="SG_SplashVC" customModule="Student_Desk" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="SBQ-eC-2ki"/>
+                        <viewControllerLayoutGuide type="bottom" id="voU-EP-n8I"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="wQU-ef-RYo">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="SplaceBG" translatesAutoresizingMaskIntoConstraints="NO" id="mYJ-QI-pmI">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" alpha="0.0" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="My Classmates?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rJO-BM-T0B">
+                                <rect key="frame" x="12.5" y="497" width="350" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="Olj-HH-e0O"/>
+                                    <constraint firstAttribute="width" constant="350" id="ozR-Vu-54q"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="TrebuchetMS-Bold" family="Trebuchet MS" pointSize="25"/>
+                                <color key="textColor" red="1" green="0.51764705879999995" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" alpha="0.0" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="My Schoolmates?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8gx-8W-ugl">
+                                <rect key="frame" x="87.5" y="552" width="200" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="ZCi-jL-LvU"/>
+                                    <constraint firstAttribute="width" constant="200" id="xyr-G4-koE"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="TrebuchetMS" family="Trebuchet MS" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" alpha="0.0" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="I’m IN" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8J6-Zw-cvE">
+                                <rect key="frame" x="87.5" y="587" width="200" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="200" id="ee0-nM-xYp"/>
+                                    <constraint firstAttribute="height" constant="30" id="heC-45-CQK"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="TrebuchetMS" family="Trebuchet MS" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="voU-EP-n8I" firstAttribute="top" secondItem="8J6-Zw-cvE" secondAttribute="bottom" constant="50" id="3Vx-aN-jlx"/>
+                            <constraint firstItem="rJO-BM-T0B" firstAttribute="centerX" secondItem="wQU-ef-RYo" secondAttribute="centerX" id="8CY-XI-5ff"/>
+                            <constraint firstItem="mYJ-QI-pmI" firstAttribute="height" secondItem="wQU-ef-RYo" secondAttribute="height" id="GMe-XT-Yjj"/>
+                            <constraint firstItem="8gx-8W-ugl" firstAttribute="top" secondItem="rJO-BM-T0B" secondAttribute="bottom" constant="5" id="U6C-la-i30"/>
+                            <constraint firstItem="mYJ-QI-pmI" firstAttribute="centerY" secondItem="wQU-ef-RYo" secondAttribute="centerY" id="ZsN-eb-4Ts"/>
+                            <constraint firstItem="8J6-Zw-cvE" firstAttribute="top" secondItem="8gx-8W-ugl" secondAttribute="bottom" constant="5" id="jbr-FV-RRF"/>
+                            <constraint firstItem="8J6-Zw-cvE" firstAttribute="centerX" secondItem="wQU-ef-RYo" secondAttribute="centerX" id="kks-my-3Rb"/>
+                            <constraint firstItem="mYJ-QI-pmI" firstAttribute="centerX" secondItem="wQU-ef-RYo" secondAttribute="centerX" id="mnN-fF-SCw"/>
+                            <constraint firstItem="8gx-8W-ugl" firstAttribute="centerX" secondItem="wQU-ef-RYo" secondAttribute="centerX" id="nl2-QS-Ime"/>
+                            <constraint firstItem="mYJ-QI-pmI" firstAttribute="width" secondItem="wQU-ef-RYo" secondAttribute="width" id="q9I-BF-hGQ"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="d1P-jj-5Jg"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="iHz-em-XJT"/>
+                    <connections>
+                        <outlet property="classmate" destination="rJO-BM-T0B" id="vEH-e3-qgh"/>
+                        <outlet property="insider" destination="8J6-Zw-cvE" id="3Qw-Oe-0iA"/>
+                        <outlet property="school" destination="8gx-8W-ugl" id="g5v-gt-aDd"/>
+                        <outlet property="splashImageView" destination="mYJ-QI-pmI" id="wbh-Pd-UMj"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6Pw-v2-LgP" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1705" y="854"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="SplaceBG" width="375" height="667"/>
+    </resources>
+</document>

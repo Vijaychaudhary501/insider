@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="TrebuchetMS.ttf">
+            <string>TrebuchetMS</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="NotificationCell" rowHeight="100" id="KGk-i7-Jjw" customClass="NotificationCell" customModule="Student_GPA" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="339" height="100"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="339" height="99.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="User_profile" translatesAutoresizingMaskIntoConstraints="NO" id="tUc-Z3-hp8" customClass="RemoteImageView">
+                        <rect key="frame" x="10" y="10" width="80" height="80"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="tUc-Z3-hp8" secondAttribute="height" multiplier="1:1" id="jV2-od-Tp6"/>
+                            <constraint firstAttribute="width" constant="80" id="jiq-MX-HqT"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Raj Patel commented on his status" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Q5A-NW-Uu1">
+                        <rect key="frame" x="105" y="15" width="219" height="46.5"/>
+                        <fontDescription key="fontDescription" name="TrebuchetMS" family="Trebuchet MS" pointSize="20"/>
+                        <color key="textColor" red="1" green="0.51764705879999995" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Mar 17 at 11:13" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xBJ-Di-hYw">
+                        <rect key="frame" x="105" y="61.5" width="219" height="21"/>
+                        <fontDescription key="fontDescription" name="TrebuchetMS" family="Trebuchet MS" pointSize="18"/>
+                        <color key="textColor" red="0.12941176469999999" green="0.25098039220000001" blue="0.60392156860000001" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                <constraints>
+                    <constraint firstItem="xBJ-Di-hYw" firstAttribute="leading" secondItem="Q5A-NW-Uu1" secondAttribute="leading" id="1NT-7c-rpF"/>
+                    <constraint firstItem="Q5A-NW-Uu1" firstAttribute="top" secondItem="tUc-Z3-hp8" secondAttribute="top" constant="5" id="9me-2k-NJq"/>
+                    <constraint firstItem="tUc-Z3-hp8" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="NDV-CN-7lC"/>
+                    <constraint firstItem="tUc-Z3-hp8" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="WEu-Em-5lR"/>
+                    <constraint firstAttribute="trailing" secondItem="Q5A-NW-Uu1" secondAttribute="trailing" constant="15" id="az4-1u-Qol"/>
+                    <constraint firstItem="xBJ-Di-hYw" firstAttribute="top" secondItem="Q5A-NW-Uu1" secondAttribute="bottom" id="cDC-a6-tun"/>
+                    <constraint firstItem="xBJ-Di-hYw" firstAttribute="trailing" secondItem="Q5A-NW-Uu1" secondAttribute="trailing" id="gpc-fz-krF"/>
+                    <constraint firstItem="Q5A-NW-Uu1" firstAttribute="leading" secondItem="tUc-Z3-hp8" secondAttribute="trailing" constant="15" id="rZg-RW-MEa"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <connections>
+                <outlet property="notificaionImage" destination="tUc-Z3-hp8" id="KGB-d8-oCJ"/>
+                <outlet property="timeLbl" destination="xBJ-Di-hYw" id="nO3-N4-AYP"/>
+                <outlet property="userNameLbl" destination="Q5A-NW-Uu1" id="Ozq-IV-GOX"/>
+            </connections>
+            <point key="canvasLocation" x="37.5" y="74"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="User_profile" width="139" height="139"/>
+    </resources>
+</document>

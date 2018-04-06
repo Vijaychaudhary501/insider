@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11542" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="CommentCell" rowHeight="98" id="KGk-i7-Jjw" customClass="CommentCell" customModule="Student_GPA" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="393" height="98"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="393" height="97"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="m7O-E3-pjW">
+                        <rect key="frame" x="0.0" y="8" width="393" height="81.5"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="User_profile" translatesAutoresizingMaskIntoConstraints="NO" id="fau-sh-aG8" customClass="RemoteImageView">
+                                <rect key="frame" x="13" y="10" width="50" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="50" id="8cP-6N-fOn"/>
+                                    <constraint firstAttribute="height" constant="50" id="ZMh-as-dhd"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2en-aY-A3D">
+                                <rect key="frame" x="8" y="62" width="65" height="16.5"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="65" id="Cj0-8l-BVf"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="TrebuchetMS" family="Trebuchet MS" pointSize="14"/>
+                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Raj Patel" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lch-UR-bhH">
+                                <rect key="frame" x="83" y="0.0" width="300" height="60.5"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" name="TrebuchetMS" family="Trebuchet MS" pointSize="20"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="16 hours ago" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qzg-e9-AAb">
+                                <rect key="frame" x="83" y="60.5" width="297" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="yiN-9f-RNn"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="TrebuchetMS" family="Trebuchet MS" pointSize="13"/>
+                                <color key="textColor" red="0.50196078430000002" green="0.50196078430000002" blue="0.50196078430000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1tk-ep-y9s">
+                                <rect key="frame" x="0.0" y="0.0" width="83" height="81.5"/>
+                                <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <state key="normal">
+                                    <color key="titleColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="fau-sh-aG8" firstAttribute="leading" secondItem="m7O-E3-pjW" secondAttribute="leadingMargin" constant="5" id="0st-K8-Hwr"/>
+                            <constraint firstItem="2en-aY-A3D" firstAttribute="top" secondItem="fau-sh-aG8" secondAttribute="bottom" constant="2" id="2XS-l1-zbQ"/>
+                            <constraint firstItem="lch-UR-bhH" firstAttribute="top" secondItem="m7O-E3-pjW" secondAttribute="top" id="5AU-xD-l0j"/>
+                            <constraint firstItem="2en-aY-A3D" firstAttribute="leading" secondItem="m7O-E3-pjW" secondAttribute="leadingMargin" id="ALd-kq-spF"/>
+                            <constraint firstAttribute="bottom" secondItem="1tk-ep-y9s" secondAttribute="bottom" id="KYp-hP-gfH"/>
+                            <constraint firstItem="fau-sh-aG8" firstAttribute="top" secondItem="m7O-E3-pjW" secondAttribute="top" constant="10" id="Kke-tY-gGi"/>
+                            <constraint firstAttribute="bottom" secondItem="qzg-e9-AAb" secondAttribute="bottom" id="Nib-zp-jf2"/>
+                            <constraint firstItem="qzg-e9-AAb" firstAttribute="top" secondItem="lch-UR-bhH" secondAttribute="bottom" id="OLg-1Z-aVX"/>
+                            <constraint firstAttribute="trailing" secondItem="qzg-e9-AAb" secondAttribute="trailing" constant="13" id="UcV-KW-y0E"/>
+                            <constraint firstItem="lch-UR-bhH" firstAttribute="leading" secondItem="fau-sh-aG8" secondAttribute="trailing" constant="20" id="cCo-nE-abN"/>
+                            <constraint firstItem="1tk-ep-y9s" firstAttribute="top" secondItem="m7O-E3-pjW" secondAttribute="top" id="gb6-dM-0zs"/>
+                            <constraint firstItem="1tk-ep-y9s" firstAttribute="leading" secondItem="m7O-E3-pjW" secondAttribute="leading" id="gbQ-Xg-ZZ5"/>
+                            <constraint firstItem="lch-UR-bhH" firstAttribute="leading" secondItem="1tk-ep-y9s" secondAttribute="trailing" id="hOE-Ks-U2b"/>
+                            <constraint firstItem="qzg-e9-AAb" firstAttribute="leading" secondItem="fau-sh-aG8" secondAttribute="trailing" constant="20" id="j3f-3U-ZdM"/>
+                            <constraint firstAttribute="bottom" secondItem="2en-aY-A3D" secondAttribute="bottom" constant="3" id="mOG-s0-SEr"/>
+                            <constraint firstAttribute="trailing" secondItem="lch-UR-bhH" secondAttribute="trailing" constant="10" id="maV-rC-xkA"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="m7O-E3-pjW" firstAttribute="width" secondItem="H2p-sc-9uM" secondAttribute="width" id="20e-Gy-ZPq"/>
+                    <constraint firstItem="m7O-E3-pjW" firstAttribute="centerX" secondItem="H2p-sc-9uM" secondAttribute="centerX" id="ECr-FU-cgt"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="m7O-E3-pjW" secondAttribute="bottom" id="dKI-Mu-6KG"/>
+                    <constraint firstItem="m7O-E3-pjW" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" id="myV-eR-LVX"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="cmntBtn" destination="1tk-ep-y9s" id="gY9-Wz-Dsq"/>
+                <outlet property="commentLbl" destination="2en-aY-A3D" id="9Er-Rj-1Cy"/>
+                <outlet property="timeLbl" destination="qzg-e9-AAb" id="iGL-1q-6Wt"/>
+                <outlet property="userName" destination="lch-UR-bhH" id="82j-F8-I2t"/>
+                <outlet property="userProfImage" destination="fau-sh-aG8" id="Qkk-uH-nKE"/>
+            </connections>
+            <point key="canvasLocation" x="61.5" y="79"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="User_profile" width="139" height="139"/>
+    </resources>
+</document>

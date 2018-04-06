@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="TrebuchetMS.ttf">
+            <string>TrebuchetMS</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="PostdataCell" rowHeight="549" id="MoC-iB-BvY" customClass="PostdataCell" customModule="Student_GPA" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="434" height="549"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="MoC-iB-BvY" id="Biw-Xf-w2A">
+                <rect key="frame" x="0.0" y="0.0" width="434" height="548.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="RB2-Gl-wkd">
+                        <rect key="frame" x="0.0" y="0.0" width="434" height="100"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="User_profile" translatesAutoresizingMaskIntoConstraints="NO" id="isB-DF-3PM" customClass="RemoteImageView">
+                                <rect key="frame" x="13" y="25" width="50" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="lCi-wg-dOf"/>
+                                    <constraint firstAttribute="width" constant="50" id="zlr-kt-aF1"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Raj Patel" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qgY-j2-HH5">
+                                <rect key="frame" x="83" y="20" width="338" height="30"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="EvJ-7B-J1p"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="TrebuchetMS" family="Trebuchet MS" pointSize="18"/>
+                                <color key="textColor" red="1" green="0.51764705879999995" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="16 hours ago" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="V3L-jq-9YM">
+                                <rect key="frame" x="83" y="50" width="338" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="nXD-jZ-WKb"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="TrebuchetMS" family="Trebuchet MS" pointSize="13"/>
+                                <color key="textColor" red="0.50196078430000002" green="0.50196078430000002" blue="0.50196078430000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="isB-DF-3PM" firstAttribute="centerY" secondItem="RB2-Gl-wkd" secondAttribute="centerY" id="5Vo-Ek-Jua"/>
+                            <constraint firstAttribute="height" constant="100" id="65f-pd-YC7"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="qgY-j2-HH5" secondAttribute="trailing" constant="5" id="Cw4-Om-hzx"/>
+                            <constraint firstItem="isB-DF-3PM" firstAttribute="leading" secondItem="RB2-Gl-wkd" secondAttribute="leadingMargin" constant="5" id="IIk-DI-uIX"/>
+                            <constraint firstItem="V3L-jq-9YM" firstAttribute="top" secondItem="qgY-j2-HH5" secondAttribute="bottom" id="J6h-Xz-F34"/>
+                            <constraint firstItem="V3L-jq-9YM" firstAttribute="leading" secondItem="qgY-j2-HH5" secondAttribute="leading" id="Ykh-Ys-t9A"/>
+                            <constraint firstItem="qgY-j2-HH5" firstAttribute="top" secondItem="RB2-Gl-wkd" secondAttribute="top" constant="20" id="Z8t-zM-rxl"/>
+                            <constraint firstItem="qgY-j2-HH5" firstAttribute="leading" secondItem="isB-DF-3PM" secondAttribute="trailing" constant="20" id="cVV-bA-iCi"/>
+                            <constraint firstItem="V3L-jq-9YM" firstAttribute="width" secondItem="qgY-j2-HH5" secondAttribute="width" id="gTN-j9-rZK"/>
+                        </constraints>
+                    </view>
+                    <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ALG-R4-Mnd" userLabel="PostDataView">
+                        <rect key="frame" x="0.0" y="100" width="434" height="320"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="320" id="Fc9-5W-S4u"/>
+                        </constraints>
+                    </view>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Menubar_Background" translatesAutoresizingMaskIntoConstraints="NO" id="ZYf-9c-GRn" customClass="RemoteImageView">
+                        <rect key="frame" x="0.0" y="100" width="434" height="320"/>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="sdfghjkjhgfdghjj" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fzT-5q-1TK">
+                        <rect key="frame" x="25" y="430" width="148" height="29"/>
+                        <fontDescription key="fontDescription" name="TrebuchetMS" family="Trebuchet MS" pointSize="20"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1Me-5h-oXg" userLabel="CellView">
+                        <rect key="frame" x="25" y="463" width="130" height="45"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fB0-T1-lv3">
+                                <rect key="frame" x="0.0" y="0.5" width="42.5" height="44"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <state key="normal" image="LikeSelectedIcone"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ooo-Kl-dTp">
+                                <rect key="frame" x="43.5" y="0.5" width="43" height="44"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <state key="normal" image="CommentNormal"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="26S-vf-VnS">
+                                <rect key="frame" x="87.5" y="0.5" width="42.5" height="44"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <state key="normal" image="ShareBtnNew"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="26S-vf-VnS" firstAttribute="centerY" secondItem="1Me-5h-oXg" secondAttribute="centerY" id="0BU-Wo-PKr"/>
+                            <constraint firstItem="ooo-Kl-dTp" firstAttribute="centerY" secondItem="1Me-5h-oXg" secondAttribute="centerY" id="7i9-OH-F4w"/>
+                            <constraint firstItem="fB0-T1-lv3" firstAttribute="height" secondItem="1Me-5h-oXg" secondAttribute="height" multiplier="0.97" id="EuH-xc-PHT"/>
+                            <constraint firstItem="fB0-T1-lv3" firstAttribute="leading" secondItem="1Me-5h-oXg" secondAttribute="leading" id="NLT-2h-Nds"/>
+                            <constraint firstItem="26S-vf-VnS" firstAttribute="leading" secondItem="ooo-Kl-dTp" secondAttribute="trailing" constant="1" id="O0c-tO-VgU"/>
+                            <constraint firstItem="fB0-T1-lv3" firstAttribute="centerY" secondItem="1Me-5h-oXg" secondAttribute="centerY" id="PGQ-Db-65Y"/>
+                            <constraint firstItem="fB0-T1-lv3" firstAttribute="width" secondItem="ooo-Kl-dTp" secondAttribute="width" id="U4n-dL-oRY"/>
+                            <constraint firstAttribute="height" constant="45" id="UuH-eq-pXN"/>
+                            <constraint firstItem="ooo-Kl-dTp" firstAttribute="height" secondItem="fB0-T1-lv3" secondAttribute="height" id="XAx-O0-1vn"/>
+                            <constraint firstItem="ooo-Kl-dTp" firstAttribute="width" secondItem="26S-vf-VnS" secondAttribute="width" id="bJN-eL-CLm"/>
+                            <constraint firstAttribute="trailing" secondItem="26S-vf-VnS" secondAttribute="trailing" id="k5G-Bx-uTg"/>
+                            <constraint firstItem="26S-vf-VnS" firstAttribute="height" secondItem="ooo-Kl-dTp" secondAttribute="height" id="pBd-1U-f7E"/>
+                            <constraint firstItem="ooo-Kl-dTp" firstAttribute="leading" secondItem="fB0-T1-lv3" secondAttribute="trailing" constant="1" id="tNq-Gn-uHG"/>
+                        </constraints>
+                    </view>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="View 1 comment" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gPM-gA-4ZN">
+                        <rect key="frame" x="20" y="513" width="394" height="25"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="25" id="lhH-Vw-7Z1"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="TrebuchetMS" family="Trebuchet MS" pointSize="14"/>
+                        <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RYc-NY-i6D">
+                        <rect key="frame" x="371" y="463.5" width="42.5" height="44"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <state key="normal" image="round-error-symbol"/>
+                    </button>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailingMargin" secondItem="gPM-gA-4ZN" secondAttribute="trailing" id="3iU-tp-8bO"/>
+                    <constraint firstItem="ZYf-9c-GRn" firstAttribute="height" secondItem="ALG-R4-Mnd" secondAttribute="height" id="5BK-hg-ARb"/>
+                    <constraint firstAttribute="leadingMargin" secondItem="gPM-gA-4ZN" secondAttribute="leading" id="8Am-If-Hai"/>
+                    <constraint firstItem="fzT-5q-1TK" firstAttribute="top" secondItem="ALG-R4-Mnd" secondAttribute="bottom" constant="10" id="9Z9-aG-5rT"/>
+                    <constraint firstItem="RB2-Gl-wkd" firstAttribute="centerX" secondItem="Biw-Xf-w2A" secondAttribute="centerX" id="Bpb-Lr-HWH"/>
+                    <constraint firstItem="1Me-5h-oXg" firstAttribute="leading" secondItem="Biw-Xf-w2A" secondAttribute="leadingMargin" constant="5" id="C0n-a8-DAh"/>
+                    <constraint firstItem="ZYf-9c-GRn" firstAttribute="width" secondItem="ALG-R4-Mnd" secondAttribute="width" id="CXS-sB-35r"/>
+                    <constraint firstItem="RYc-NY-i6D" firstAttribute="centerY" secondItem="26S-vf-VnS" secondAttribute="centerY" id="FLp-qE-HHg"/>
+                    <constraint firstItem="RYc-NY-i6D" firstAttribute="width" secondItem="26S-vf-VnS" secondAttribute="width" id="Fcf-sj-NzN"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="fzT-5q-1TK" secondAttribute="trailing" constant="241" id="HTW-AO-Rsc"/>
+                    <constraint firstAttribute="trailing" secondItem="RYc-NY-i6D" secondAttribute="trailing" constant="20" id="KB9-Zo-Z24"/>
+                    <constraint firstItem="RB2-Gl-wkd" firstAttribute="top" secondItem="Biw-Xf-w2A" secondAttribute="top" id="KFV-p3-Kds"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="gPM-gA-4ZN" secondAttribute="bottom" id="OUT-sq-nfP"/>
+                    <constraint firstItem="ALG-R4-Mnd" firstAttribute="top" secondItem="RB2-Gl-wkd" secondAttribute="bottom" id="P83-pv-nEa"/>
+                    <constraint firstItem="1Me-5h-oXg" firstAttribute="width" secondItem="Biw-Xf-w2A" secondAttribute="width" multiplier="0.3" id="Vxf-9E-tDv"/>
+                    <constraint firstItem="ZYf-9c-GRn" firstAttribute="centerX" secondItem="ALG-R4-Mnd" secondAttribute="centerX" id="YzP-I5-nWc"/>
+                    <constraint firstItem="ALG-R4-Mnd" firstAttribute="centerX" secondItem="Biw-Xf-w2A" secondAttribute="centerX" id="cCG-n4-rwP"/>
+                    <constraint firstItem="ZYf-9c-GRn" firstAttribute="centerY" secondItem="ALG-R4-Mnd" secondAttribute="centerY" id="gvr-HB-fms"/>
+                    <constraint firstItem="1Me-5h-oXg" firstAttribute="top" secondItem="fzT-5q-1TK" secondAttribute="bottom" constant="4" id="k3g-zH-fHs"/>
+                    <constraint firstItem="fzT-5q-1TK" firstAttribute="leading" secondItem="Biw-Xf-w2A" secondAttribute="leadingMargin" constant="5" id="ke4-db-g0s"/>
+                    <constraint firstItem="gPM-gA-4ZN" firstAttribute="top" secondItem="1Me-5h-oXg" secondAttribute="bottom" constant="5" id="q8f-br-hpw"/>
+                    <constraint firstItem="RB2-Gl-wkd" firstAttribute="width" secondItem="Biw-Xf-w2A" secondAttribute="width" id="rtu-5R-xuT"/>
+                    <constraint firstItem="ALG-R4-Mnd" firstAttribute="width" secondItem="Biw-Xf-w2A" secondAttribute="width" id="wwV-Il-a7P"/>
+                    <constraint firstItem="RYc-NY-i6D" firstAttribute="height" secondItem="26S-vf-VnS" secondAttribute="height" id="zYW-tp-cgq"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="cellViewHeight" destination="Fc9-5W-S4u" id="GQa-pF-vce"/>
+                <outlet property="cmntLbl" destination="gPM-gA-4ZN" id="EZu-OZ-ZBc"/>
+                <outlet property="commentBtn" destination="ooo-Kl-dTp" id="2Ua-yl-6Vr"/>
+                <outlet property="discriptionLbl" destination="fzT-5q-1TK" id="bg9-YG-teX"/>
+                <outlet property="likeBtn" destination="fB0-T1-lv3" id="LC4-gh-xHS"/>
+                <outlet property="postDataImage" destination="ZYf-9c-GRn" id="aJ2-3B-qiK"/>
+                <outlet property="postDataView" destination="ALG-R4-Mnd" id="6lP-9r-f1u"/>
+                <outlet property="postDescTop" destination="9Z9-aG-5rT" id="p0n-qo-9Gz"/>
+                <outlet property="profileImageview" destination="isB-DF-3PM" id="pre-0l-pTy"/>
+                <outlet property="report_editBtn" destination="RYc-NY-i6D" id="jX5-FZ-kWU"/>
+                <outlet property="shareBtn" destination="26S-vf-VnS" id="IzI-Fm-3cH"/>
+                <outlet property="timeLbl" destination="V3L-jq-9YM" id="FS9-Nk-iN3"/>
+                <outlet property="userNameLbl" destination="qgY-j2-HH5" id="rTq-UQ-xzy"/>
+            </connections>
+            <point key="canvasLocation" x="82" y="176.5"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="CommentNormal" width="21" height="20"/>
+        <image name="LikeSelectedIcone" width="21" height="20"/>
+        <image name="Menubar_Background" width="288" height="667"/>
+        <image name="ShareBtnNew" width="20" height="20"/>
+        <image name="User_profile" width="139" height="139"/>
+        <image name="round-error-symbol" width="16" height="16"/>
+    </resources>
+</document>
