@@ -132,9 +132,16 @@ extension UIViewController {
 //        self.slideMenuController()?.addRightGestures()
         let btNnewMessage = UIBarButtonItem(image: UIImage(named: "MessageTabIcon"), style: .plain, target: self, action: #selector(newMessagClick(_:)))// action:#selector(Class.MethodName) for swift 3
         self.navigationItem.leftBarButtonItem  = btNnewMessage
+
+        let btnSearch = UIBarButtonItem(image: UIImage(named: "CustomvieBarBtn"), style: .plain, target: self, action: #selector(searchClick(_:)))// action:#selector(Class.MethodName) for swift 3
+        self.navigationItem.rightBarButtonItem  = btnSearch
+        
     }
     @IBAction func newMessagClick(_ sender:UIBarButtonItem){
         self.performSegue(withIdentifier: "MessageVC", sender: nil)
+    }
+    @IBAction func searchClick(_ sender:UIBarButtonItem){
+        self.performSegue(withIdentifier: "FilterVC", sender: nil)
     }
     
     func removeNavigationBarItem() {

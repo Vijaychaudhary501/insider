@@ -42,7 +42,7 @@
         <!--SplashVC-->
         <scene sceneID="FM7-j7-ivy">
             <objects>
-                <viewController id="RyB-QW-PmH" customClass="SG_SplashVC" customModule="Student_GPA" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="RyB-QW-PmH" customClass="SG_SplashVC" customModule="insider" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="KKa-cH-Hd0"/>
                         <viewControllerLayoutGuide type="bottom" id="9NX-cl-kFT"/>
@@ -130,7 +130,7 @@
         <!--LoginVC-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController storyboardIdentifier="Login" id="BYZ-38-t0r" customClass="SG_LoginVC" customModule="Student_GPA" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="Login" id="BYZ-38-t0r" customClass="SG_LoginVC" customModule="insider" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -248,7 +248,7 @@
         <!--Create ProfileVC-->
         <scene sceneID="fNy-nN-ua5">
             <objects>
-                <tableViewController storyboardIdentifier="Create_profileVC" id="j28-j0-5uZ" customClass="SG_CreateProfileVC" customModule="Student_GPA" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController storyboardIdentifier="Create_profileVC" id="j28-j0-5uZ" customClass="SG_CreateProfileVC" customModule="insider" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" bounces="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="static" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="8Oh-37-7jT">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -526,7 +526,7 @@
         <!--Update ProfileVC-->
         <scene sceneID="s1a-yx-Ayh">
             <objects>
-                <tableViewController storyboardIdentifier="UpdateprofileVC" automaticallyAdjustsScrollViewInsets="NO" id="MQ5-O1-xbV" customClass="SG_UpdateProfileVC" customModule="Student_GPA" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController storyboardIdentifier="UpdateprofileVC" automaticallyAdjustsScrollViewInsets="NO" id="MQ5-O1-xbV" customClass="SG_UpdateProfileVC" customModule="insider" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="6qL-Xq-kTi">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -924,7 +924,7 @@
         <!--Privacy PolicyVC View Controller-->
         <scene sceneID="fma-KL-9hN">
             <objects>
-                <viewController id="6rV-Tq-a5m" customClass="SG_PrivacyPolicyVCViewController" customModule="Student_GPA" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="6rV-Tq-a5m" customClass="SG_PrivacyPolicyVCViewController" customModule="insider" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Jy9-nH-ga1"/>
                         <viewControllerLayoutGuide type="bottom" id="q0h-HL-kiM"/>
@@ -959,7 +959,7 @@
         <!--SignupVC-->
         <scene sceneID="MTV-x0-KQO">
             <objects>
-                <viewController storyboardIdentifier="Sign_up" id="KRu-19-6tf" customClass="SG_SignupVC" customModule="Student_GPA" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="Sign_up" id="KRu-19-6tf" customClass="SG_SignupVC" customModule="insider" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="stb-ut-P2O"/>
                         <viewControllerLayoutGuide type="bottom" id="uud-sa-tYO"/>
@@ -1053,7 +1053,7 @@
         <!--Forgot PasswordVC-->
         <scene sceneID="C8b-tq-lt2">
             <objects>
-                <viewController storyboardIdentifier="Forgot_password" automaticallyAdjustsScrollViewInsets="NO" id="zE1-on-LBY" customClass="SG_ForgotPasswordVC" customModule="Student_GPA" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="Forgot_password" automaticallyAdjustsScrollViewInsets="NO" id="zE1-on-LBY" customClass="SG_ForgotPasswordVC" customModule="insider" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="a60-UN-a2A"/>
                         <viewControllerLayoutGuide type="bottom" id="n8Z-Fz-SwJ"/>
@@ -1133,7 +1133,7 @@
         <!--InsightVC-->
         <scene sceneID="63S-lq-vHn">
             <objects>
-                <viewController storyboardIdentifier="InsightVC" id="JW8-FO-nHa" customClass="SG_InsightVC" customModule="Student_GPA" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="InsightVC" id="JW8-FO-nHa" customClass="SG_InsightVC" customModule="insider" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="H9X-uP-Jfp"/>
                         <viewControllerLayoutGuide type="bottom" id="aw7-GM-yXc"/>
@@ -1170,7 +1170,7 @@
         <!--SendmessageVC-->
         <scene sceneID="QoZ-FO-gGa">
             <objects>
-                <viewController storyboardIdentifier="SendmessageVC" automaticallyAdjustsScrollViewInsets="NO" id="OaM-Np-aNO" customClass="SG_SendmessageVC" customModule="Student_GPA" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="SendmessageVC" automaticallyAdjustsScrollViewInsets="NO" id="OaM-Np-aNO" customClass="SG_SendmessageVC" customModule="insider" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="gS9-dj-XiF"/>
                         <viewControllerLayoutGuide type="bottom" id="kMJ-p0-eS0"/>
@@ -1257,7 +1257,7 @@
         <!--My ClassVC-->
         <scene sceneID="gld-S6-fbK">
             <objects>
-                <viewController storyboardIdentifier="NotificationsVC" automaticallyAdjustsScrollViewInsets="NO" id="8H4-sE-fD1" customClass="SG_MyClassVC" customModule="Student_GPA" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="NotificationsVC" automaticallyAdjustsScrollViewInsets="NO" id="8H4-sE-fD1" customClass="SG_MyClassVC" customModule="insider" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="wjY-Rg-8aC"/>
                         <viewControllerLayoutGuide type="bottom" id="p0P-9e-wfI"/>
@@ -1304,7 +1304,7 @@
         <!--CommentVC-->
         <scene sceneID="dOd-hy-Xgd">
             <objects>
-                <viewController automaticallyAdjustsScrollViewInsets="NO" id="bO3-YH-y1p" customClass="SG_CommentVC" customModule="Student_GPA" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController automaticallyAdjustsScrollViewInsets="NO" id="bO3-YH-y1p" customClass="SG_CommentVC" customModule="insider" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="2ff-qr-0F6"/>
                         <viewControllerLayoutGuide type="bottom" id="Xow-aV-Zof"/>
@@ -1395,7 +1395,7 @@
         <!--MypostVC-->
         <scene sceneID="tYb-jr-aAy">
             <objects>
-                <viewController storyboardIdentifier="MypostVC" automaticallyAdjustsScrollViewInsets="NO" id="ZNw-js-i7C" customClass="SG_MypostVC" customModule="Student_GPA" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="MypostVC" automaticallyAdjustsScrollViewInsets="NO" id="ZNw-js-i7C" customClass="SG_MypostVC" customModule="insider" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="4b9-vG-hL0"/>
                         <viewControllerLayoutGuide type="bottom" id="rEH-Hh-6FH"/>
@@ -1409,7 +1409,7 @@
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <inset key="separatorInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="ProfileCell" rowHeight="308" id="Hzx-SV-5Bw" customClass="SG_CreatePostCell" customModule="Student_GPA" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="ProfileCell" rowHeight="308" id="Hzx-SV-5Bw" customClass="SG_CreatePostCell" customModule="insider" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="375" height="308"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Hzx-SV-5Bw" id="Hdi-UX-HJF">
@@ -1590,7 +1590,7 @@
         <!--Class Course ListVC-->
         <scene sceneID="ahR-tL-xhV">
             <objects>
-                <viewController storyboardIdentifier="ClassCourseVC" automaticallyAdjustsScrollViewInsets="NO" id="7Z6-eB-Jye" customClass="SG_ClassCourseListVC" customModule="Student_GPA" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ClassCourseVC" automaticallyAdjustsScrollViewInsets="NO" id="7Z6-eB-Jye" customClass="SG_ClassCourseListVC" customModule="insider" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="ffZ-4c-tNY"/>
                         <viewControllerLayoutGuide type="bottom" id="erf-8k-JdS"/>
@@ -1634,7 +1634,7 @@
         <!--RatemyteacherVC-->
         <scene sceneID="yhR-9V-0aH">
             <objects>
-                <viewController storyboardIdentifier="RatemyteacherVC" id="2qb-S1-Gwf" customClass="SG_RatemyteacherVC" customModule="Student_GPA" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="RatemyteacherVC" id="2qb-S1-Gwf" customClass="SG_RatemyteacherVC" customModule="insider" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="FdI-pH-gLL"/>
                         <viewControllerLayoutGuide type="bottom" id="2l0-Dv-P70"/>
@@ -1684,7 +1684,7 @@
         <!--GroupstudyVC-->
         <scene sceneID="Tkc-Nc-7pr">
             <objects>
-                <viewController id="Dix-Ca-ddN" customClass="SG_GroupstudyVC" customModule="Student_GPA" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="Dix-Ca-ddN" customClass="SG_GroupstudyVC" customModule="insider" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="pYh-s0-O9P"/>
                         <viewControllerLayoutGuide type="bottom" id="koJ-6a-RkV"/>
@@ -1703,7 +1703,7 @@
         <!--Change PasswordVC-->
         <scene sceneID="7aT-MU-beG">
             <objects>
-                <viewController id="PJN-U4-GOO" customClass="SG_ChangePasswordVC" customModule="Student_GPA" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="PJN-U4-GOO" customClass="SG_ChangePasswordVC" customModule="insider" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Hvl-In-MYb"/>
                         <viewControllerLayoutGuide type="bottom" id="GEr-71-ZMr"/>
@@ -1803,7 +1803,7 @@
         <!--Edit PostVC-->
         <scene sceneID="UAw-ry-rIx">
             <objects>
-                <viewController automaticallyAdjustsScrollViewInsets="NO" id="chG-k0-eEU" customClass="EditPostVC" customModule="Student_GPA" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController automaticallyAdjustsScrollViewInsets="NO" id="chG-k0-eEU" customClass="EditPostVC" customModule="insider" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="NRr-5v-cP8"/>
                         <viewControllerLayoutGuide type="bottom" id="jZt-ND-nu1"/>
@@ -1884,7 +1884,7 @@
         <!--Left View Controller-->
         <scene sceneID="FpI-Sj-LdI">
             <objects>
-                <viewController storyboardIdentifier="LeftViewController" id="8rs-yJ-HCK" customClass="LeftViewController" customModule="Student_GPA" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="LeftViewController" id="8rs-yJ-HCK" customClass="LeftViewController" customModule="insider" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="gqq-MZ-p98"/>
                         <viewControllerLayoutGuide type="bottom" id="uRq-UJ-U8n"/>
@@ -1901,7 +1901,7 @@
                                 <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="sectionIndexBackgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="ProfileCell" rowHeight="200" id="eig-PV-wAs" userLabel="profile" customClass="SG_CreatePostCell" customModule="Student_GPA" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="ProfileCell" rowHeight="200" id="eig-PV-wAs" userLabel="profile" customClass="SG_CreatePostCell" customModule="insider" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="22" width="375" height="200"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="eig-PV-wAs" id="4hX-yc-qgD">
@@ -1956,7 +1956,7 @@
                                             <outlet property="userNameLbl" destination="VFT-82-hIK" id="I64-IC-k4f"/>
                                         </connections>
                                     </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="MenubarCell" rowHeight="40" id="Gwg-t6-Opv" userLabel="menu" customClass="Menubar_Cell" customModule="Student_GPA" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="MenubarCell" rowHeight="40" id="Gwg-t6-Opv" userLabel="menu" customClass="Menubar_Cell" customModule="insider" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="222" width="375" height="40"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Gwg-t6-Opv" id="xjb-Dm-Nh2">
@@ -2040,7 +2040,7 @@
         <!--Main View Controller-->
         <scene sceneID="H9b-SH-GPI">
             <objects>
-                <viewController storyboardIdentifier="MainViewController" automaticallyAdjustsScrollViewInsets="NO" id="0Uk-Ox-Tfs" customClass="MainViewController" customModule="Student_GPA" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="MainViewController" automaticallyAdjustsScrollViewInsets="NO" id="0Uk-Ox-Tfs" customClass="MainViewController" customModule="insider" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="m5U-Fj-qyx"/>
                         <viewControllerLayoutGuide type="bottom" id="NBK-LN-nlm"/>
@@ -2100,7 +2100,7 @@
                                 <color key="separatorColor" red="0.50196078430000002" green="0.50196078430000002" blue="0.50196078430000002" alpha="1" colorSpace="calibratedRGB"/>
                                 <inset key="separatorInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="ProfileCell" rowHeight="308" id="nZx-1r-RVJ" customClass="SG_CreatePostCell" customModule="Student_GPA" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="ProfileCell" rowHeight="308" id="nZx-1r-RVJ" customClass="SG_CreatePostCell" customModule="insider" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="375" height="308"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="nZx-1r-RVJ" id="gYF-go-nXX">
@@ -2263,7 +2263,7 @@
                                             <inset key="sectionInset" minX="10" minY="10" maxX="10" maxY="10"/>
                                         </collectionViewFlowLayout>
                                         <cells>
-                                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="storyProfImageCell" id="hSK-Kh-Bcg" customClass="ImageCollectionCell" customModule="Student_GPA" customModuleProvider="target">
+                                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="storyProfImageCell" id="hSK-Kh-Bcg" customClass="ImageCollectionCell" customModule="insider" customModuleProvider="target">
                                                 <rect key="frame" x="10" y="5" width="60" height="60"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
@@ -2364,17 +2364,17 @@
         <!--FilterviewVC-->
         <scene sceneID="qsU-md-vSP">
             <objects>
-                <viewController storyboardIdentifier="FilterviewVC" id="rlS-1a-GVZ" customClass="SG_FilterviewVC" customModule="Student_GPA" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="FilterviewVC" id="rlS-1a-GVZ" customClass="SG_FilterviewVC" customModule="insider" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="TtM-9p-iPV"/>
                         <viewControllerLayoutGuide type="bottom" id="6Dl-8W-4rP"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="YI4-iT-lo7">
-                        <rect key="frame" x="0.0" y="0.0" width="200" height="200"/>
+                        <rect key="frame" x="0.0" y="0.0" width="200" height="300"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="7cK-Bk-Qbi">
-                                <rect key="frame" x="0.0" y="0.0" width="200" height="200"/>
+                                <rect key="frame" x="0.0" y="0.0" width="200" height="300"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <inset key="separatorInset" minX="15" minY="0.0" maxX="15" maxY="0.0"/>
                                 <prototypes>
@@ -2438,19 +2438,19 @@
                     </view>
                     <simulatedStatusBarMetrics key="simulatedStatusBarMetrics" statusBarStyle="lightContent"/>
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
-                    <size key="freeformSize" width="200" height="200"/>
+                    <size key="freeformSize" width="200" height="300"/>
                     <connections>
                         <outlet property="tableView" destination="7cK-Bk-Qbi" id="1yI-Sq-yYv"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="lKe-Tt-qIF" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1410" y="-35"/>
+            <point key="canvasLocation" x="1298" y="-117"/>
         </scene>
         <!--MessagesVC-->
         <scene sceneID="54W-F4-Y2C">
             <objects>
-                <viewController storyboardIdentifier="MessagesVC" id="6bT-Oq-RA8" customClass="SG_MessagesVC" customModule="Student_GPA" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="MessagesVC" id="6bT-Oq-RA8" customClass="SG_MessagesVC" customModule="insider" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="yRX-xK-dgA"/>
                         <viewControllerLayoutGuide type="bottom" id="5pJ-gU-PJ0"/>
@@ -2515,7 +2515,7 @@
         <!--Class StudentVC-->
         <scene sceneID="vrN-95-Y0l">
             <objects>
-                <viewController automaticallyAdjustsScrollViewInsets="NO" id="x0G-bl-gU1" customClass="SG_ClassStudentVC" customModule="Student_GPA" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController automaticallyAdjustsScrollViewInsets="NO" id="x0G-bl-gU1" customClass="SG_ClassStudentVC" customModule="insider" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="xDJ-yj-aIr"/>
                         <viewControllerLayoutGuide type="bottom" id="yHC-N1-RlE"/>
@@ -2549,7 +2549,7 @@
         <!--User ClassVC-->
         <scene sceneID="tBY-b8-29T">
             <objects>
-                <viewController automaticallyAdjustsScrollViewInsets="NO" id="WLc-Fy-Jow" customClass="SG_UserClassVC" customModule="Student_GPA" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController automaticallyAdjustsScrollViewInsets="NO" id="WLc-Fy-Jow" customClass="SG_UserClassVC" customModule="insider" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="0Ml-0i-QFW"/>
                         <viewControllerLayoutGuide type="bottom" id="05E-kr-uFv"/>
@@ -2593,7 +2593,7 @@
         <!--RateofteacherVC-->
         <scene sceneID="Xvk-WK-mt2">
             <objects>
-                <viewController automaticallyAdjustsScrollViewInsets="NO" id="nJg-oN-aWt" customClass="SG_RateofteacherVC" customModule="Student_GPA" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController automaticallyAdjustsScrollViewInsets="NO" id="nJg-oN-aWt" customClass="SG_RateofteacherVC" customModule="insider" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="qVc-fA-dw6"/>
                         <viewControllerLayoutGuide type="bottom" id="aB5-6w-5FT"/>
@@ -2609,7 +2609,7 @@
                                         <rect key="frame" x="1" y="1" width="353" height="625"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <prototypes>
-                                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="Course/crnCell" textLabel="Syo-zI-put" detailTextLabel="TBm-AB-SX0" rowHeight="95" style="IBUITableViewCellStyleValue1" id="WoA-PJ-h3a" customClass="RateofteacherCell" customModule="Student_GPA" customModuleProvider="target">
+                                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="Course/crnCell" textLabel="Syo-zI-put" detailTextLabel="TBm-AB-SX0" rowHeight="95" style="IBUITableViewCellStyleValue1" id="WoA-PJ-h3a" customClass="RateofteacherCell" customModule="insider" customModuleProvider="target">
                                                 <rect key="frame" x="0.0" y="28" width="353" height="95"/>
                                                 <autoresizingMask key="autoresizingMask"/>
                                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="WoA-PJ-h3a" id="H8a-z3-nXo">
@@ -2636,7 +2636,7 @@
                                                     <outlet property="courseLbl" destination="TBm-AB-SX0" id="iAu-6h-DkZ"/>
                                                 </connections>
                                             </tableViewCell>
-                                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="RatemyteacherCell" rowHeight="95" id="fW2-BV-n33" customClass="RateofteacherCell" customModule="Student_GPA" customModuleProvider="target">
+                                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="RatemyteacherCell" rowHeight="95" id="fW2-BV-n33" customClass="RateofteacherCell" customModule="insider" customModuleProvider="target">
                                                 <rect key="frame" x="0.0" y="123" width="353" height="95"/>
                                                 <autoresizingMask key="autoresizingMask"/>
                                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="fW2-BV-n33" id="RmE-Pr-AIl">
@@ -2720,7 +2720,7 @@
                                                     <outlet property="rtwoBtn" destination="x2Z-oK-Usm" id="xUS-N0-dtf"/>
                                                 </connections>
                                             </tableViewCell>
-                                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="HowdifficultCell" rowHeight="72" id="Ono-QB-KQ9" customClass="RateofteacherCell" customModule="Student_GPA" customModuleProvider="target">
+                                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="HowdifficultCell" rowHeight="72" id="Ono-QB-KQ9" customClass="RateofteacherCell" customModule="insider" customModuleProvider="target">
                                                 <rect key="frame" x="0.0" y="218" width="353" height="72"/>
                                                 <autoresizingMask key="autoresizingMask"/>
                                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Ono-QB-KQ9" id="ssS-Yj-X34">
@@ -2797,7 +2797,7 @@
                                                     <outlet property="hdtwoBtn" destination="E27-2H-cE4" id="5Um-Wo-qbN"/>
                                                 </connections>
                                             </tableViewCell>
-                                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="AttendanceCell" textLabel="9GM-kJ-hyn" detailTextLabel="sxd-ku-kyp" style="IBUITableViewCellStyleValue1" id="BNo-D4-jYM" customClass="RateofteacherCell" customModule="Student_GPA" customModuleProvider="target">
+                                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="AttendanceCell" textLabel="9GM-kJ-hyn" detailTextLabel="sxd-ku-kyp" style="IBUITableViewCellStyleValue1" id="BNo-D4-jYM" customClass="RateofteacherCell" customModule="insider" customModuleProvider="target">
                                                 <rect key="frame" x="0.0" y="290" width="353" height="44"/>
                                                 <autoresizingMask key="autoresizingMask"/>
                                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="BNo-D4-jYM" id="4VZ-Y4-Wd3">
@@ -2824,7 +2824,7 @@
                                                     <outlet property="lblAttendance" destination="sxd-ku-kyp" id="zMl-GI-lBI"/>
                                                 </connections>
                                             </tableViewCell>
-                                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="HomeworksCell" textLabel="Jn4-aM-9Lj" detailTextLabel="2Rw-iA-UcG" style="IBUITableViewCellStyleValue1" id="ZFc-z6-1kS" customClass="RateofteacherCell" customModule="Student_GPA" customModuleProvider="target">
+                                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="HomeworksCell" textLabel="Jn4-aM-9Lj" detailTextLabel="2Rw-iA-UcG" style="IBUITableViewCellStyleValue1" id="ZFc-z6-1kS" customClass="RateofteacherCell" customModule="insider" customModuleProvider="target">
                                                 <rect key="frame" x="0.0" y="334" width="353" height="44"/>
                                                 <autoresizingMask key="autoresizingMask"/>
                                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="ZFc-z6-1kS" id="0kq-KR-FgV">
@@ -2850,7 +2850,7 @@
                                                     <outlet property="lblHomework" destination="2Rw-iA-UcG" id="O4h-0l-prt"/>
                                                 </connections>
                                             </tableViewCell>
-                                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="TextbookuseCell" textLabel="1Ak-kG-QSI" detailTextLabel="jbP-bt-ZZR" style="IBUITableViewCellStyleValue1" id="PnE-Gq-hwt" customClass="RateofteacherCell" customModule="Student_GPA" customModuleProvider="target">
+                                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="TextbookuseCell" textLabel="1Ak-kG-QSI" detailTextLabel="jbP-bt-ZZR" style="IBUITableViewCellStyleValue1" id="PnE-Gq-hwt" customClass="RateofteacherCell" customModule="insider" customModuleProvider="target">
                                                 <rect key="frame" x="0.0" y="378" width="353" height="44"/>
                                                 <autoresizingMask key="autoresizingMask"/>
                                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="PnE-Gq-hwt" id="I2c-WH-NHI">
@@ -2877,7 +2877,7 @@
                                                     <outlet property="lblBook" destination="jbP-bt-ZZR" id="lbr-p8-AYD"/>
                                                 </connections>
                                             </tableViewCell>
-                                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="GroupprojectCell" textLabel="Pnk-Tv-0Er" detailTextLabel="KmH-wK-T5U" style="IBUITableViewCellStyleValue1" id="aWl-Id-S4Y" customClass="RateofteacherCell" customModule="Student_GPA" customModuleProvider="target">
+                                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="GroupprojectCell" textLabel="Pnk-Tv-0Er" detailTextLabel="KmH-wK-T5U" style="IBUITableViewCellStyleValue1" id="aWl-Id-S4Y" customClass="RateofteacherCell" customModule="insider" customModuleProvider="target">
                                                 <rect key="frame" x="0.0" y="422" width="353" height="44"/>
                                                 <autoresizingMask key="autoresizingMask"/>
                                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="aWl-Id-S4Y" id="8nT-57-lmZ">
@@ -2904,7 +2904,7 @@
                                                     <outlet property="lblGrp" destination="KmH-wK-T5U" id="S8X-KI-08G"/>
                                                 </connections>
                                             </tableViewCell>
-                                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="CellphoneuseCell" textLabel="YQf-U9-hh1" detailTextLabel="Zgh-66-Z7z" style="IBUITableViewCellStyleValue1" id="JAE-1p-HY0" customClass="RateofteacherCell" customModule="Student_GPA" customModuleProvider="target">
+                                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="CellphoneuseCell" textLabel="YQf-U9-hh1" detailTextLabel="Zgh-66-Z7z" style="IBUITableViewCellStyleValue1" id="JAE-1p-HY0" customClass="RateofteacherCell" customModule="insider" customModuleProvider="target">
                                                 <rect key="frame" x="0.0" y="466" width="353" height="44"/>
                                                 <autoresizingMask key="autoresizingMask"/>
                                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" tableViewCell="JAE-1p-HY0" id="snF-JE-REa">
@@ -2931,7 +2931,7 @@
                                                     <outlet property="lblCellphone" destination="Zgh-66-Z7z" id="GZG-kw-rh0"/>
                                                 </connections>
                                             </tableViewCell>
-                                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="CurvingCell" textLabel="fQA-O3-e7s" detailTextLabel="X03-g2-f0m" style="IBUITableViewCellStyleValue1" id="4ib-FB-jz8" customClass="RateofteacherCell" customModule="Student_GPA" customModuleProvider="target">
+                                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="CurvingCell" textLabel="fQA-O3-e7s" detailTextLabel="X03-g2-f0m" style="IBUITableViewCellStyleValue1" id="4ib-FB-jz8" customClass="RateofteacherCell" customModule="insider" customModuleProvider="target">
                                                 <rect key="frame" x="0.0" y="510" width="353" height="44"/>
                                                 <autoresizingMask key="autoresizingMask"/>
                                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="4ib-FB-jz8" id="iad-f6-IK8">
@@ -2958,7 +2958,7 @@
                                                     <outlet property="lblCurving" destination="X03-g2-f0m" id="W5A-ER-yuT"/>
                                                 </connections>
                                             </tableViewCell>
-                                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="WouldtakeagainCell" textLabel="vlB-NB-vyg" detailTextLabel="zwG-iN-KEX" style="IBUITableViewCellStyleValue1" id="VpX-kX-gAU" customClass="RateofteacherCell" customModule="Student_GPA" customModuleProvider="target">
+                                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="WouldtakeagainCell" textLabel="vlB-NB-vyg" detailTextLabel="zwG-iN-KEX" style="IBUITableViewCellStyleValue1" id="VpX-kX-gAU" customClass="RateofteacherCell" customModule="insider" customModuleProvider="target">
                                                 <rect key="frame" x="0.0" y="554" width="353" height="44"/>
                                                 <autoresizingMask key="autoresizingMask"/>
                                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="VpX-kX-gAU" id="RNz-CV-DbD">
@@ -2985,7 +2985,7 @@
                                                     <outlet property="lblTakeagain" destination="zwG-iN-KEX" id="qdN-Ee-NKZ"/>
                                                 </connections>
                                             </tableViewCell>
-                                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="CommentCell" rowHeight="150" id="AfM-wE-bfA" customClass="RateofteacherCell" customModule="Student_GPA" customModuleProvider="target">
+                                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="CommentCell" rowHeight="150" id="AfM-wE-bfA" customClass="RateofteacherCell" customModule="insider" customModuleProvider="target">
                                                 <rect key="frame" x="0.0" y="598" width="353" height="150"/>
                                                 <autoresizingMask key="autoresizingMask"/>
                                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="AfM-wE-bfA" id="feH-Je-I67">
@@ -3057,7 +3057,7 @@
         <!--AddratetoteacherVC-->
         <scene sceneID="5gH-Ga-blJ">
             <objects>
-                <viewController automaticallyAdjustsScrollViewInsets="NO" id="yaF-3c-b3e" customClass="SG_AddratetoteacherVC" customModule="Student_GPA" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController automaticallyAdjustsScrollViewInsets="NO" id="yaF-3c-b3e" customClass="SG_AddratetoteacherVC" customModule="insider" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="x9t-Zz-Doy"/>
                         <viewControllerLayoutGuide type="bottom" id="ERK-pf-7tt"/>
@@ -3075,7 +3075,7 @@
                                         <color key="separatorColor" red="0.67450980390000004" green="0.67450980390000004" blue="0.67450980390000004" alpha="1" colorSpace="calibratedRGB"/>
                                         <inset key="separatorInset" minX="15" minY="0.0" maxX="15" maxY="0.0"/>
                                         <prototypes>
-                                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="CRNCell" rowHeight="80" id="l2o-18-wWz" customClass="RateofteacherCell" customModule="Student_GPA" customModuleProvider="target">
+                                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="CRNCell" rowHeight="80" id="l2o-18-wWz" customClass="RateofteacherCell" customModule="insider" customModuleProvider="target">
                                                 <rect key="frame" x="0.0" y="28" width="353" height="80"/>
                                                 <autoresizingMask key="autoresizingMask"/>
                                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="l2o-18-wWz" id="9aF-V2-VP7">
@@ -3100,7 +3100,7 @@
                                                     <outlet property="crnTxtFld" destination="UDo-AW-5hr" id="4tc-wy-jBZ"/>
                                                 </connections>
                                             </tableViewCell>
-                                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="RatemyteacherCell" rowHeight="95" id="f9K-fU-s0Z" customClass="RateofteacherCell" customModule="Student_GPA" customModuleProvider="target">
+                                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="RatemyteacherCell" rowHeight="95" id="f9K-fU-s0Z" customClass="RateofteacherCell" customModule="insider" customModuleProvider="target">
                                                 <rect key="frame" x="0.0" y="108" width="353" height="95"/>
                                                 <autoresizingMask key="autoresizingMask"/>
                                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="f9K-fU-s0Z" id="fAT-ee-Lky">
@@ -3173,7 +3173,7 @@
                                                     <outlet property="rtwoBtn" destination="jTf-Ns-UGF" id="LWP-oJ-T1Y"/>
                                                 </connections>
                                             </tableViewCell>
-                                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="HowdifficultCell" rowHeight="72" id="XWt-ce-7xe" customClass="RateofteacherCell" customModule="Student_GPA" customModuleProvider="target">
+                                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="HowdifficultCell" rowHeight="72" id="XWt-ce-7xe" customClass="RateofteacherCell" customModule="insider" customModuleProvider="target">
                                                 <rect key="frame" x="0.0" y="203" width="353" height="72"/>
                                                 <autoresizingMask key="autoresizingMask"/>
                                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="XWt-ce-7xe" id="bvq-7o-DzQ">
@@ -3250,7 +3250,7 @@
                                                     <outlet property="hdtwoBtn" destination="CnY-p0-yfo" id="BHv-lC-Rsh"/>
                                                 </connections>
                                             </tableViewCell>
-                                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="AttendanceCell" textLabel="QQw-ur-RJ9" detailTextLabel="Ne4-aE-DAl" style="IBUITableViewCellStyleValue1" id="eYa-r9-t9R" customClass="RateofteacherCell" customModule="Student_GPA" customModuleProvider="target">
+                                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="AttendanceCell" textLabel="QQw-ur-RJ9" detailTextLabel="Ne4-aE-DAl" style="IBUITableViewCellStyleValue1" id="eYa-r9-t9R" customClass="RateofteacherCell" customModule="insider" customModuleProvider="target">
                                                 <rect key="frame" x="0.0" y="275" width="353" height="44"/>
                                                 <autoresizingMask key="autoresizingMask"/>
                                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="eYa-r9-t9R" id="xWt-Si-3hY">
@@ -3277,7 +3277,7 @@
                                                     <outlet property="lblAttendance" destination="Ne4-aE-DAl" id="XVb-vH-Bzy"/>
                                                 </connections>
                                             </tableViewCell>
-                                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="HomeworksCell" textLabel="dFH-gS-UJv" detailTextLabel="pUy-9a-ATB" style="IBUITableViewCellStyleValue1" id="LnV-Mq-vzS" customClass="RateofteacherCell" customModule="Student_GPA" customModuleProvider="target">
+                                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="HomeworksCell" textLabel="dFH-gS-UJv" detailTextLabel="pUy-9a-ATB" style="IBUITableViewCellStyleValue1" id="LnV-Mq-vzS" customClass="RateofteacherCell" customModule="insider" customModuleProvider="target">
                                                 <rect key="frame" x="0.0" y="319" width="353" height="44"/>
                                                 <autoresizingMask key="autoresizingMask"/>
                                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="LnV-Mq-vzS" id="w4u-tj-iuE">
@@ -3303,7 +3303,7 @@
                                                     <outlet property="lblHomework" destination="pUy-9a-ATB" id="HhE-mg-bKN"/>
                                                 </connections>
                                             </tableViewCell>
-                                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="TextbookuseCell" id="M5d-oU-rhp" customClass="RateofteacherCell" customModule="Student_GPA" customModuleProvider="target">
+                                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="TextbookuseCell" id="M5d-oU-rhp" customClass="RateofteacherCell" customModule="insider" customModuleProvider="target">
                                                 <rect key="frame" x="0.0" y="363" width="353" height="44"/>
                                                 <autoresizingMask key="autoresizingMask"/>
                                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="M5d-oU-rhp" id="oUg-VQ-soc">
@@ -3343,7 +3343,7 @@
                                                     <outlet property="textBookSegment" destination="uLj-sT-9aW" id="E4O-Sn-O9G"/>
                                                 </connections>
                                             </tableViewCell>
-                                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="GroupprojectCell" id="gqU-W9-F4j" customClass="RateofteacherCell" customModule="Student_GPA" customModuleProvider="target">
+                                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="GroupprojectCell" id="gqU-W9-F4j" customClass="RateofteacherCell" customModule="insider" customModuleProvider="target">
                                                 <rect key="frame" x="0.0" y="407" width="353" height="44"/>
                                                 <autoresizingMask key="autoresizingMask"/>
                                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="gqU-W9-F4j" id="tG3-bb-g4L">
@@ -3383,7 +3383,7 @@
                                                     <outlet property="grpSegment" destination="cFl-Jt-QYb" id="W2F-cK-Wzm"/>
                                                 </connections>
                                             </tableViewCell>
-                                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="CellphoneuseCell" id="7w9-DR-lia" customClass="RateofteacherCell" customModule="Student_GPA" customModuleProvider="target">
+                                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="CellphoneuseCell" id="7w9-DR-lia" customClass="RateofteacherCell" customModule="insider" customModuleProvider="target">
                                                 <rect key="frame" x="0.0" y="451" width="353" height="44"/>
                                                 <autoresizingMask key="autoresizingMask"/>
                                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" tableViewCell="7w9-DR-lia" id="baD-HK-pA4">
@@ -3423,7 +3423,7 @@
                                                     <outlet property="cellphoneSegment" destination="9MO-x7-vaz" id="CW7-JL-NyN"/>
                                                 </connections>
                                             </tableViewCell>
-                                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="CurvingCell" id="7EQ-lt-aZe" customClass="RateofteacherCell" customModule="Student_GPA" customModuleProvider="target">
+                                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="CurvingCell" id="7EQ-lt-aZe" customClass="RateofteacherCell" customModule="insider" customModuleProvider="target">
                                                 <rect key="frame" x="0.0" y="495" width="353" height="44"/>
                                                 <autoresizingMask key="autoresizingMask"/>
                                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="7EQ-lt-aZe" id="u9A-Kc-Vp7">
@@ -3463,7 +3463,7 @@
                                                     <outlet property="curvingSegment" destination="ogI-aO-X1K" id="8OS-JM-nvp"/>
                                                 </connections>
                                             </tableViewCell>
-                                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="WouldtakeagainCell" id="EPt-bV-QkG" customClass="RateofteacherCell" customModule="Student_GPA" customModuleProvider="target">
+                                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="WouldtakeagainCell" id="EPt-bV-QkG" customClass="RateofteacherCell" customModule="insider" customModuleProvider="target">
                                                 <rect key="frame" x="0.0" y="539" width="353" height="44"/>
                                                 <autoresizingMask key="autoresizingMask"/>
                                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="EPt-bV-QkG" id="Dk3-e8-pKD">
@@ -3503,7 +3503,7 @@
                                                     <outlet property="takeagainSegment" destination="nrP-6n-QQq" id="5LL-YY-fhn"/>
                                                 </connections>
                                             </tableViewCell>
-                                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="CommentCell" rowHeight="150" id="Ocf-LL-HCm" customClass="RateofteacherCell" customModule="Student_GPA" customModuleProvider="target">
+                                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="CommentCell" rowHeight="150" id="Ocf-LL-HCm" customClass="RateofteacherCell" customModule="insider" customModuleProvider="target">
                                                 <rect key="frame" x="0.0" y="583" width="353" height="150"/>
                                                 <autoresizingMask key="autoresizingMask"/>
                                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Ocf-LL-HCm" id="eE8-Pf-D36">
@@ -3601,7 +3601,7 @@
         <!--PostfilterVC-->
         <scene sceneID="Tyk-Kb-asw">
             <objects>
-                <viewController storyboardIdentifier="PostfilterviewVC" id="Wuu-wb-Eoe" customClass="SG_PostfilterVC" customModule="Student_GPA" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="PostfilterviewVC" id="Wuu-wb-Eoe" customClass="SG_PostfilterVC" customModule="insider" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="BBC-Bo-2QW"/>
                         <viewControllerLayoutGuide type="bottom" id="p5Q-Tq-aY7"/>
@@ -3615,7 +3615,7 @@
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <inset key="separatorInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="PostfilterCell" rowHeight="47" id="1sv-RJ-V0G" customClass="Menubar_Cell" customModule="Student_GPA" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="PostfilterCell" rowHeight="47" id="1sv-RJ-V0G" customClass="Menubar_Cell" customModule="insider" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="200" height="47"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="1sv-RJ-V0G" id="ADu-dT-6ac">
@@ -3676,7 +3676,7 @@
         <!--ClassesVC-->
         <scene sceneID="OlR-Jp-bdq">
             <objects>
-                <viewController automaticallyAdjustsScrollViewInsets="NO" id="CbE-6G-paY" customClass="SG_ClassesVC" customModule="Student_GPA" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController automaticallyAdjustsScrollViewInsets="NO" id="CbE-6G-paY" customClass="SG_ClassesVC" customModule="insider" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="9x8-PA-lag"/>
                         <viewControllerLayoutGuide type="bottom" id="4pv-SC-iIS"/>
@@ -3690,7 +3690,7 @@
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <inset key="separatorInset" minX="32" minY="0.0" maxX="32" maxY="0.0"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="crnCell" rowHeight="60" id="Uzn-jd-k7c" userLabel="crn" customClass="ClassesCell" customModule="Student_GPA" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="crnCell" rowHeight="60" id="Uzn-jd-k7c" userLabel="crn" customClass="ClassesCell" customModule="insider" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="375" height="60"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Uzn-jd-k7c" id="lhE-cq-kFL">
@@ -3715,7 +3715,7 @@
                                             <outlet property="crnTextFld" destination="xya-80-FSp" id="f9f-an-dJ4"/>
                                         </connections>
                                     </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="currentCell" rowHeight="60" id="eOS-6W-aDQ" customClass="ClassesCell" customModule="Student_GPA" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="currentCell" rowHeight="60" id="eOS-6W-aDQ" customClass="ClassesCell" customModule="insider" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="88" width="375" height="60"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="eOS-6W-aDQ" id="54Z-4S-OSV">
@@ -3757,7 +3757,7 @@
                                             <outlet property="currentSegment" destination="Ka4-Ps-tfC" id="Rtc-dZ-Ubr"/>
                                         </connections>
                                     </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="courseCell" rowHeight="60" id="own-kz-8Al" userLabel="courses" customClass="ClassesCell" customModule="Student_GPA" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="courseCell" rowHeight="60" id="own-kz-8Al" userLabel="courses" customClass="ClassesCell" customModule="insider" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="148" width="375" height="60"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="own-kz-8Al" id="bKn-3O-ezh">
@@ -3794,7 +3794,7 @@
                                             <outlet property="txtCourse" destination="5Gp-hz-vG4" id="2an-vd-wv1"/>
                                         </connections>
                                     </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="titleCell" rowHeight="60" id="ucU-FK-aLN" userLabel="Title" customClass="ClassesCell" customModule="Student_GPA" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="titleCell" rowHeight="60" id="ucU-FK-aLN" userLabel="Title" customClass="ClassesCell" customModule="insider" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="208" width="375" height="60"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="ucU-FK-aLN" id="dEZ-pP-Fbv">
@@ -3819,7 +3819,7 @@
                                             <outlet property="titleTxtFld" destination="fGL-3L-DK1" id="kRi-r5-uZc"/>
                                         </connections>
                                     </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="teacherCell" rowHeight="60" id="p92-VW-5gv" userLabel="Teachers" customClass="ClassesCell" customModule="Student_GPA" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="teacherCell" rowHeight="60" id="p92-VW-5gv" userLabel="Teachers" customClass="ClassesCell" customModule="insider" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="268" width="375" height="60"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="p92-VW-5gv" id="04Z-ob-13P">
@@ -3856,7 +3856,7 @@
                                             <outlet property="txtfldTeacher" destination="7QW-fz-hAL" id="0Tq-cN-NoD"/>
                                         </connections>
                                     </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="bookCell" rowHeight="60" id="BLJ-oM-53n" userLabel="book" customClass="ClassesCell" customModule="Student_GPA" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="bookCell" rowHeight="60" id="BLJ-oM-53n" userLabel="book" customClass="ClassesCell" customModule="insider" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="328" width="375" height="60"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="BLJ-oM-53n" id="eeF-yl-eT3">
@@ -3898,7 +3898,7 @@
                                             <outlet property="bookSeg" destination="LgC-Jq-d6v" id="aJh-u9-R57"/>
                                         </connections>
                                     </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="noteCell" rowHeight="60" id="KER-We-Fkb" userLabel="notes" customClass="ClassesCell" customModule="Student_GPA" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="noteCell" rowHeight="60" id="KER-We-Fkb" userLabel="notes" customClass="ClassesCell" customModule="insider" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="388" width="375" height="60"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KER-We-Fkb" id="jRe-O1-swn">
@@ -3941,7 +3941,7 @@
                                             <outlet property="noteSeg" destination="gEX-X6-Hj5" id="93Z-z3-2LA"/>
                                         </connections>
                                     </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="saveBtnCell" rowHeight="110" id="SBN-XZ-XCc" userLabel="savebtn" customClass="ClassesCell" customModule="Student_GPA" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="saveBtnCell" rowHeight="110" id="SBN-XZ-XCc" userLabel="savebtn" customClass="ClassesCell" customModule="insider" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="448" width="375" height="110"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="SBN-XZ-XCc" id="dd8-Ou-Hee">
@@ -4031,7 +4031,7 @@
         <!--CommentVC-->
         <scene sceneID="au2-kr-fKR">
             <objects>
-                <viewController storyboardIdentifier="CommentVC" title="ClearanceNoticeEditViewController" automaticallyAdjustsScrollViewInsets="NO" id="ikO-2U-nb1" userLabel="CommentVC" customClass="SG_CommentVCViewController" customModule="Student_GPA" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="CommentVC" title="ClearanceNoticeEditViewController" automaticallyAdjustsScrollViewInsets="NO" id="ikO-2U-nb1" userLabel="CommentVC" customClass="SG_CommentVCViewController" customModule="insider" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="ozj-z5-XCh"/>
                         <viewControllerLayoutGuide type="bottom" id="yfW-Yo-B5A"/>
@@ -4155,7 +4155,7 @@
                                                                     <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                                                 </collectionViewFlowLayout>
                                                                 <cells>
-                                                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="cellId" id="p7Y-QG-ljO" customClass="ImageCollectionCell" customModule="Student_GPA" customModuleProvider="target">
+                                                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="cellId" id="p7Y-QG-ljO" customClass="ImageCollectionCell" customModule="insider" customModuleProvider="target">
                                                                         <rect key="frame" x="0.0" y="0.0" width="95" height="95"/>
                                                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
@@ -4287,7 +4287,7 @@
                                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                                 <inset key="separatorInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                                                 <prototypes>
-                                                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="addPerson" id="WhE-s3-VX1" customClass="SearchCell" customModule="Student_GPA" customModuleProvider="target">
+                                                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="addPerson" id="WhE-s3-VX1" customClass="SearchCell" customModule="insider" customModuleProvider="target">
                                                                         <rect key="frame" x="0.0" y="28" width="321" height="56"/>
                                                                         <autoresizingMask key="autoresizingMask"/>
                                                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="WhE-s3-VX1" id="3j3-QQ-DiO">
@@ -4428,7 +4428,7 @@
         <!--ACTIVITY-->
         <scene sceneID="aFU-QU-Ix5">
             <objects>
-                <viewController storyboardIdentifier="GroupstudyVC" automaticallyAdjustsScrollViewInsets="NO" id="P3c-Ac-1Cf" customClass="InstagramExampleViewController" customModule="Student_GPA" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="GroupstudyVC" automaticallyAdjustsScrollViewInsets="NO" id="P3c-Ac-1Cf" customClass="InstagramExampleViewController" customModule="insider" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="3KM-Bn-8a7"/>
                         <viewControllerLayoutGuide type="bottom" id="8lh-oE-ygu"/>
@@ -4481,7 +4481,7 @@
         <!--AddgroupstudyVC-->
         <scene sceneID="6jQ-G6-KFO">
             <objects>
-                <viewController automaticallyAdjustsScrollViewInsets="NO" id="BSK-yM-cTz" customClass="SG_AddgroupstudyVC" customModule="Student_GPA" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController automaticallyAdjustsScrollViewInsets="NO" id="BSK-yM-cTz" customClass="SG_AddgroupstudyVC" customModule="insider" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="HV6-eA-K1C"/>
                         <viewControllerLayoutGuide type="bottom" id="HVq-aW-aHc"/>
@@ -4622,7 +4622,7 @@
         <!--User ChatVC-->
         <scene sceneID="Pyc-HT-WDh">
             <objects>
-                <viewController storyboardIdentifier="CC_UserChatVC" automaticallyAdjustsScrollViewInsets="NO" id="Kp1-NZ-0R7" customClass="CC_UserChatVC" customModule="Student_GPA" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="CC_UserChatVC" automaticallyAdjustsScrollViewInsets="NO" id="Kp1-NZ-0R7" customClass="CC_UserChatVC" customModule="insider" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="krP-md-C1j"/>
                         <viewControllerLayoutGuide type="bottom" id="lZd-TR-OuG"/>
@@ -4672,7 +4672,7 @@
                                     </constraints>
                                 </view>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="CC_ChatCell" rowHeight="80" id="ZvZ-1e-Pb1" customClass="CC_ChatCell" customModule="Student_GPA" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="CC_ChatCell" rowHeight="80" id="ZvZ-1e-Pb1" customClass="CC_ChatCell" customModule="insider" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="68" width="375" height="80"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="ZvZ-1e-Pb1" id="LVK-Oe-sIp">
@@ -4940,7 +4940,7 @@
         <!--CameraVC-->
         <scene sceneID="HNJ-c5-lUo">
             <objects>
-                <viewController storyboardIdentifier="CameraVC" id="CsX-i9-R9m" customClass="SG_CameraVC" customModule="Student_GPA" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="CameraVC" id="CsX-i9-R9m" customClass="SG_CameraVC" customModule="insider" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="J86-q3-rmV"/>
                         <viewControllerLayoutGuide type="bottom" id="v2y-e4-lRO"/>
@@ -4958,7 +4958,7 @@
         <!--Youtube Example View Controller-->
         <scene sceneID="XVu-iH-lib">
             <objects>
-                <viewController id="9iy-78-7LI" customClass="YoutubeExampleViewController" customModule="Student_GPA" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="9iy-78-7LI" customClass="YoutubeExampleViewController" customModule="insider" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="EVd-yU-b3I"/>
                         <viewControllerLayoutGuide type="bottom" id="NyX-Gf-Und"/>
@@ -5041,7 +5041,7 @@
         <!--Cropper-->
         <scene sceneID="jTK-Tr-JCv">
             <objects>
-                <viewController id="TJ0-Ul-5cc" customClass="FAImageCropperVC" customModule="Student_GPA" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="TJ0-Ul-5cc" customClass="FAImageCropperVC" customModule="insider" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="u0e-NF-mrC"/>
                         <viewControllerLayoutGuide type="bottom" id="tRF-15-nTz"/>
@@ -5053,7 +5053,7 @@
                             <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mOg-AZ-GBB">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="375"/>
                                 <subviews>
-                                    <scrollView multipleTouchEnabled="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" alwaysBounceHorizontal="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dN1-dH-hFS" customClass="FAScrollView" customModule="Student_GPA" customModuleProvider="target">
+                                    <scrollView multipleTouchEnabled="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" alwaysBounceHorizontal="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dN1-dH-hFS" customClass="FAScrollView" customModule="insider" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="0.0" width="375" height="375"/>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                     </scrollView>
@@ -5113,7 +5113,7 @@
                                             <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                         </collectionViewFlowLayout>
                                         <cells>
-                                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="FAImageCell" id="9yy-bH-AdQ" customClass="FAImageCell" customModule="Student_GPA" customModuleProvider="target">
+                                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="FAImageCell" id="9yy-bH-AdQ" customClass="FAImageCell" customModule="insider" customModuleProvider="target">
                                                 <rect key="frame" x="0.0" y="0.0" width="100" height="100"/>
                                                 <autoresizingMask key="autoresizingMask"/>
                                                 <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
@@ -5198,7 +5198,7 @@
         <!--New post-->
         <scene sceneID="ZaA-RS-kmv">
             <objects>
-                <viewController title="New post" id="xRl-X1-suN" customClass="FADetailVC" customModule="Student_GPA" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="New post" id="xRl-X1-suN" customClass="FADetailVC" customModule="insider" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="2cc-pe-Pmu"/>
                         <viewControllerLayoutGuide type="bottom" id="7M7-VL-gzN"/>
@@ -5306,13 +5306,13 @@
         <image name="zoom" width="21" height="21"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="u4d-VC-eav"/>
+        <segue reference="Z8O-99-E9E"/>
         <segue reference="a4v-wo-ahM"/>
         <segue reference="IoT-zk-Xer"/>
         <segue reference="bNk-b1-cSk"/>
         <segue reference="Zpd-fU-HaR"/>
         <segue reference="p6I-c6-p3l"/>
-        <segue reference="iBz-gU-Eyf"/>
+        <segue reference="x2K-xl-VKX"/>
         <segue reference="Ysa-75-h4q"/>
     </inferredMetricsTieBreakers>
 </document>

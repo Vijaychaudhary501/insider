@@ -40,6 +40,7 @@ class MainViewController: UIViewController {
     var post_Type:String = ""
     var isselectedIndex = 0
     var msgBtnSelected = 0
+    let searchBar = UISearchBar()
     var mainContens = ["data1", "data2", "data3", "data4", "data5", "data6", "data7", "data8", "data9", "data10", "data11", "data12", "data13", "data14", "data15"]
     
     override func viewDidLoad() {
@@ -50,6 +51,9 @@ class MainViewController: UIViewController {
         CTableView.estimatedRowHeight = 85.0
         tableView.rowHeight = UITableViewAutomaticDimension
         isselectedIndex = 0
+        searchBar.sizeToFit()
+        searchBar.delegate = self
+        self.navigationItem.titleView = searchBar
         self.tableView.registerCellNib(PostdataCell.self)
         let cretepostNib = UINib(nibName: "SG_CreatePostCell", bundle: nil)
         self.tableView.register(cretepostNib, forCellReuseIdentifier: "CreatePostCell")
@@ -59,10 +63,47 @@ class MainViewController: UIViewController {
         let tap = UITapGestureRecognizer(target: self, action: #selector(postdoubleTapped(gesture:)))
         tap.numberOfTapsRequired = 2
         postBtn.addGestureRecognizer(tap)
+        
+        NotificationCenter.default.addObserver(self, selector: #selector(showNotification), name: NSNotification.Name(rawValue: "searchPost"), object: nil)
+        NotificationCenter.default.addObserver(self, selector: #selector(searchPost), name: NSNotification.Name(rawValue: "searchFilter"), object: nil)
+        
     }
     @objc func  postdoubleTapped(gesture: UITapGestureRecognizer){
+        
         self.performSegue(withIdentifier: "PostfilterVC", sender: nil)
     }
+    func searchPost(_ notification: NSNotification) {
+        var dictPostParameter = NSDictionary()
+        if let str = notification.userInfo?["search"] as? String {
+            dictPostParameter = NSDictionary(dictionary: ["school_id":Constant.USER_DEFAULT.value(forKey: Constant.SCHOOL_ID)!,"id":Constant.USER_DEFAULT.value(forKey: Constant.USER_ID)!,"token":Constant.USER_DEFAULT.value(forKey: Constant.ACCESS_TOKEN)!,"keyword":searchBar.text as Any,"search_by":str])
+            WebServiceManager.callGeneralWebService(WSUrl: Constant.WS_SEARCH, WSParams: dictPostParameter, WSMethod: .post, isLoader: true) { (iData, iError) in
+                if iError != nil {
+                    print(iError?.localizedDescription ?? "")
+                }else {
+                    let iDictPostData = iData as! NSDictionary
+                    if let iIntSuccess = iData?.object(forKey: Constant.SUCCESS) as? NSNumber
+                    {
+                        if iIntSuccess == 1 {
+ 
+                        }else {
+                            let Alert = UIAlertController(title: "", message: iData?.object(forKey: Constant.MESSAGE) as? String, preferredStyle: UIAlertControllerStyle.alert)
+                            
+                            Alert.addAction(UIAlertAction(title: "Ok", style: .default, handler: { (action: UIAlertAction!) in
+                                
+                            }))
+                            
+                            self.present(Alert, animated: true, completion: nil)
+                        }
+                    }
+                }
+            }
+        }
+        
+        
+        
+    }
+    
+    
     func showNotification(_ notification: NSNotification) {
         
         if let str = notification.userInfo?["post"] as? String {
@@ -889,4 +930,21 @@ extension MainViewController : SlideMenuControllerDelegate {
     func rightDidClose() {
         print("SlideMenuControllerDelegate: rightDidClose")
     }
+}
+
+extension MainViewController:UISearchBarDelegate{
+    func searchBarTextDidEndEditing(_ searchBar: UISearchBar) {
+        
+    }
+    func searchBarSearchButtonClicked(_ searchBar: UISearchBar) {
+        searchBar.endEditing(true)
+    }
+    func searchBar(_ searchBar: UISearchBar, textDidChange searchText: String) {
+        if searchText.trimmingCharacters(in: .whitespaces).count>0{
+        NotificationCenter.default.post(name: NSNotification.Name(rawValue: "searchFilter"), object: nil, userInfo: ["search":"Keyword"])
+        }
+    }
+    
+    
+    
 }

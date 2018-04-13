@@ -24,8 +24,8 @@ class SG_MessagesVC: UIViewController,UITableViewDataSource,UITableViewDelegate 
         self.tableView.rowHeight = UITableViewAutomaticDimension
         self.tableView.estimatedRowHeight = UITableViewAutomaticDimension
         let messageNib = UINib(nibName: "MessageCell", bundle: nil)
-        self.tableView.register(messageNib, forCellReuseIdentifier: "messagecell")
-        
+        self.tableView.register(messageNib, forCellReuseIdentifier: "MessageCell")
+//
         let leftButton: UIBarButtonItem = UIBarButtonItem(image:UIImage(named: "Back_btn") , style: UIBarButtonItemStyle.plain, target: self, action: #selector(self.backBtnClicked))
         self.navigationItem.leftBarButtonItem = leftButton
         
@@ -34,7 +34,7 @@ class SG_MessagesVC: UIViewController,UITableViewDataSource,UITableViewDelegate 
     }
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
-        self.messageListServiceCall()
+        //self.messageListServiceCall()
         
         self.navigationController?.navigationBar.backgroundColor = UIColor.red
         self.navigationController?.view.backgroundColor = UIColor.red
@@ -91,7 +91,9 @@ class SG_MessagesVC: UIViewController,UITableViewDataSource,UITableViewDelegate 
             let cell = self.tableView.dequeueReusableCell(withIdentifier: "NewmessageCell", for: indexPath)
             return cell
         }else {
-            let cell = self.tableView.dequeueReusableCell(withIdentifier: "MessageCell", for: indexPath) as! MessageCell
+            
+            let cell = tableView.dequeueReusableCell(withIdentifier: "MessageCell") as! MessageCell
+            //let cell = self.tableView.dequeueReusableCell(withIdentifier: "MessageCell", for: indexPath) as! MessageCell
             if (self.messageList[indexPath.row-1]["photo"] as! String) == "" {
                 
             }else {
@@ -213,7 +215,12 @@ class SG_MessagesVC: UIViewController,UITableViewDataSource,UITableViewDelegate 
                                                       "id":"\(Constant.USER_DEFAULT.value(forKey: Constant.USER_ID)!)","token":"\(Constant.USER_DEFAULT.value(forKey: Constant.ACCESS_TOKEN)!)"])
         
         print(dictParameter)
-        WebServiceManager.callGeneralWebService(WSUrl: Constant.WS_MESSAGE, WSParams: dictParameter, WSMethod: .post, isLoader: true) { (iData, iError) in
+        var dict = [String:Any]()
+        dict["tag"] = "student_message_list"
+        dict["id"] = Constant.USER_DEFAULT.value(forKey: Constant.USER_ID)!
+        dict["token"] = Constant.USER_DEFAULT.value(forKey: Constant.ACCESS_TOKEN)!
+        
+        WebServiceManager.callGeneralWebService(WSUrl: Constant.WS_MESSAGE, WSParams: dict as NSDictionary, WSMethod: .post, isLoader: true) { (iData, iError) in
             
             if iError != nil {
                 print(iError?.localizedDescription ?? "")

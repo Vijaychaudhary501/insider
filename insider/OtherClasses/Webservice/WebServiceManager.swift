@@ -19,7 +19,7 @@ class WebServiceManager: NSObject {
             if isLoader{
                 KRProgressHUD.show()
             }
-            Alamofire.request(WSUrl, method:WSMethod, parameters: WSParams as? [String: Any], encoding: URLEncoding.default).validate().responseJSON { response in
+            Alamofire.request(WSUrl, method:WSMethod, parameters: WSParams as? [String: Any], encoding: URLEncoding.default).responseJSON { response in
                     KRProgressHUD.dismiss()
                     print(response)
                     switch response.result{

@@ -18,7 +18,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
-        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="PostdataCell" rowHeight="549" id="MoC-iB-BvY" customClass="PostdataCell" customModule="Student_GPA" customModuleProvider="target">
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="PostdataCell" rowHeight="549" id="MoC-iB-BvY" customClass="PostdataCell" customModule="insider" customModuleProvider="target">
             <rect key="frame" x="0.0" y="0.0" width="434" height="549"/>
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
             <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="MoC-iB-BvY" id="Biw-Xf-w2A">
@@ -79,7 +79,7 @@
                         <rect key="frame" x="0.0" y="100" width="434" height="320"/>
                     </imageView>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="sdfghjkjhgfdghjj" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fzT-5q-1TK">
-                        <rect key="frame" x="25" y="430" width="148" height="29"/>
+                        <rect key="frame" x="25" y="430" width="404" height="29"/>
                         <fontDescription key="fontDescription" name="TrebuchetMS" family="Trebuchet MS" pointSize="20"/>
                         <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                         <nil key="highlightedColor"/>
@@ -145,7 +145,7 @@
                     <constraint firstItem="ZYf-9c-GRn" firstAttribute="width" secondItem="ALG-R4-Mnd" secondAttribute="width" id="CXS-sB-35r"/>
                     <constraint firstItem="RYc-NY-i6D" firstAttribute="centerY" secondItem="26S-vf-VnS" secondAttribute="centerY" id="FLp-qE-HHg"/>
                     <constraint firstItem="RYc-NY-i6D" firstAttribute="width" secondItem="26S-vf-VnS" secondAttribute="width" id="Fcf-sj-NzN"/>
-                    <constraint firstAttribute="trailingMargin" secondItem="fzT-5q-1TK" secondAttribute="trailing" constant="241" id="HTW-AO-Rsc"/>
+                    <constraint firstAttribute="trailing" secondItem="fzT-5q-1TK" secondAttribute="trailing" constant="5" id="Iht-UZ-Mov"/>
                     <constraint firstAttribute="trailing" secondItem="RYc-NY-i6D" secondAttribute="trailing" constant="20" id="KB9-Zo-Z24"/>
                     <constraint firstItem="RB2-Gl-wkd" firstAttribute="top" secondItem="Biw-Xf-w2A" secondAttribute="top" id="KFV-p3-Kds"/>
                     <constraint firstAttribute="bottomMargin" secondItem="gPM-gA-4ZN" secondAttribute="bottom" id="OUT-sq-nfP"/>

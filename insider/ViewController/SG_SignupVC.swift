@@ -93,7 +93,7 @@ class SG_SignupVC: UIViewController {
             return
         }
         
-        let dictLoginParameter = NSDictionary(dictionary: ["tag": "user_registration","email":txtFieldEmail.text ?? ""])
+        let dictLoginParameter = NSDictionary(dictionary: ["tag": "user_registration","email":txtFieldEmail.text ?? "","device_token":"\(Constant.USER_DEFAULT.value(forKey: Constant.DEVICE_TOKEN)!)","device_type":"Iphone"])
         
         
         WebServiceManager.callGeneralWebService(WSUrl: Constant.WS_USER, WSParams: dictLoginParameter, WSMethod: .post, isLoader: true) { (iData, iError) in

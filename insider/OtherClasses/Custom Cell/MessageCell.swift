@@ -11,7 +11,7 @@ import UIKit
 class MessageCell: UITableViewCell {
 
     
-   // @IBOutlet weak var userProfileImage: RemoteImageView!
+    @IBOutlet weak var userProfileImage: RemoteImageView!
     
     @IBOutlet weak var userNameLbl: UILabel!
     

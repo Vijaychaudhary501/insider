@@ -70,7 +70,7 @@ class SG_ForgotPasswordVC: UIViewController {
         
 
         let dictLoginParameter = NSDictionary(dictionary: ["tag": "forget_password","email": self.txtFieldEmail.text!])
-        let url = URL.init(string: Constant.WS_USER)
+        /*let url = URL.init(string: Constant.WS_USER)
         var request = URLRequest.init(url: url!)
         request.httpMethod  = "POST"
         let session = URLSession.shared
@@ -87,7 +87,7 @@ class SG_ForgotPasswordVC: UIViewController {
             
             
         }
-        task.resume()
+        task.resume()*/
         WebServiceManager.callGeneralWebService(WSUrl: Constant.WS_USER, WSParams: dictLoginParameter, WSMethod: .post, isLoader: true) { (iData, iError) in
             if iError != nil {
                 print(iError?.localizedDescription ?? "")
