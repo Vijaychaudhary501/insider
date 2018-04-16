@@ -1252,7 +1252,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zXX-6t-MUc" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="538" y="-1302"/>
+            <point key="canvasLocation" x="434" y="-1922"/>
         </scene>
         <!--My ClassVC-->
         <scene sceneID="gld-S6-fbK">
@@ -1299,7 +1299,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Mlp-SW-Fkq" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="732" y="-591.45427286356824"/>
+            <point key="canvasLocation" x="798" y="-688"/>
         </scene>
         <!--CommentVC-->
         <scene sceneID="dOd-hy-Xgd">
@@ -1390,7 +1390,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="njo-We-RZn" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1437.5999999999999" y="-584.25787106446785"/>
+            <point key="canvasLocation" x="1490" y="-635"/>
         </scene>
         <!--MypostVC-->
         <scene sceneID="tYb-jr-aAy">
@@ -2158,7 +2158,7 @@
                                                         <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                     </state>
                                                     <connections>
-                                                        <action selector="viewGroupStudyBtnTaped:" destination="ZNw-js-i7C" eventType="touchUpInside" id="Ugd-2F-qYt"/>
+                                                        <action selector="myClasses:" destination="0Uk-Ox-Tfs" eventType="touchUpInside" id="rIB-xR-6zs"/>
                                                     </connections>
                                                 </button>
                                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rQS-s4-I5l">
@@ -2359,7 +2359,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7CO-u8-ED6" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="731.5" y="98.5"/>
+            <point key="canvasLocation" x="513" y="160"/>
         </scene>
         <!--FilterviewVC-->
         <scene sceneID="qsU-md-vSP">
@@ -2510,7 +2510,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dls-Mp-SWm" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-15" y="-591"/>
+            <point key="canvasLocation" x="-150" y="-572"/>
         </scene>
         <!--Class StudentVC-->
         <scene sceneID="vrN-95-Y0l">
@@ -3686,7 +3686,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="687-MD-cOk">
-                                <rect key="frame" x="0.0" y="24" width="375" height="599"/>
+                                <rect key="frame" x="0.0" y="-20" width="375" height="687"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <inset key="separatorInset" minX="32" minY="0.0" maxX="32" maxY="0.0"/>
                                 <prototypes>
@@ -3977,7 +3977,7 @@
                                 <sections/>
                             </tableView>
                             <tableView clipsSubviews="YES" tag="1" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="J17-Ey-Jae">
-                                <rect key="frame" x="46" y="144" width="240" height="200"/>
+                                <rect key="frame" x="46" y="100" width="240" height="200"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="240" id="AcB-RS-jnL"/>
@@ -5306,13 +5306,13 @@
         <image name="zoom" width="21" height="21"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="Z8O-99-E9E"/>
-        <segue reference="a4v-wo-ahM"/>
+        <segue reference="u4d-VC-eav"/>
+        <segue reference="Drn-KY-MmZ"/>
         <segue reference="IoT-zk-Xer"/>
-        <segue reference="bNk-b1-cSk"/>
+        <segue reference="Dkb-lt-lVo"/>
         <segue reference="Zpd-fU-HaR"/>
         <segue reference="p6I-c6-p3l"/>
-        <segue reference="x2K-xl-VKX"/>
+        <segue reference="iBz-gU-Eyf"/>
         <segue reference="Ysa-75-h4q"/>
     </inferredMetricsTieBreakers>
 </document>

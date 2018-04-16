@@ -131,7 +131,7 @@ class SG_MessagesVC: UIViewController,UITableViewDataSource,UITableViewDelegate 
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         if indexPath.row != 0 {
         self.chatUserId = indexPath.row-1
-        self.performSegue(withIdentifier: "showChat", sender: nil)
+        //self.performSegue(withIdentifier: "showChat", sender: nil)
         }
         
     }
@@ -285,11 +285,11 @@ class SG_MessagesVC: UIViewController,UITableViewDataSource,UITableViewDelegate 
     //MARK : EVENTS
     
     @IBAction func newMessageBtnTaped(_ sender: Any) {
-        /*let vcc = Constant.SG_StoryBoard.instantiateViewController(withIdentifier: "SendmessageVC") as! SG_SendmessageVC
+        let vcc = Constant.SG_StoryBoard.instantiateViewController(withIdentifier: "SendmessageVC") as! SG_SendmessageVC
         let dest = SG_SendmessageVC()
         dest.ttle = "Raj"
-        self.navigationController?.pushViewController(vcc, animated: true)*/
-        self.performSegue(withIdentifier: "Sendnewmessage", sender: nil)
+        self.navigationController?.pushViewController(vcc, animated: true)
+       // self.performSegue(withIdentifier: "Sendnewmessage", sender: nil)
     }
     
     @objc func backBtnClicked() {
@@ -298,7 +298,7 @@ class SG_MessagesVC: UIViewController,UITableViewDataSource,UITableViewDelegate 
 
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         
-       /* if segue.identifier == "showChat" {
+        /*if segue.identifier == "showChat" {
             let nextVC = segue.destination as! CC_UserChatVC
             nextVC.strChatUserName = "\(messageList[chatUserId]["user_name"] as! String)"
             if "\(messageList[chatUserId]["createdby"]  as! String)" == "\(Constant.USER_DEFAULT.value(forKey: Constant.USER_ID)!)" {

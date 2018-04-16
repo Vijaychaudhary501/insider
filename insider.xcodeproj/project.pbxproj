@@ -118,6 +118,7 @@
 		150F76FA20755592001536CC /* TeacherList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 150F76BA20755592001536CC /* TeacherList.swift */; };
 		150F76FB20755592001536CC /* UserList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 150F76BB20755592001536CC /* UserList.swift */; };
 		150F76FC20755592001536CC /* SG_NOTIFICATION_DATA.swift in Sources */ = {isa = PBXBuildFile; fileRef = 150F76BC20755592001536CC /* SG_NOTIFICATION_DATA.swift */; };
+		151307E02081189200B6CF87 /* CC_UserChatVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 151307DF2081189200B6CF87 /* CC_UserChatVC.swift */; };
 		1514232920753D3700BF5C08 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1514232820753D3700BF5C08 /* AppDelegate.swift */; };
 		1514234020753DC900BF5C08 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1514233A20753DC900BF5C08 /* Main.storyboard */; };
 		1514234120753DC900BF5C08 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1514233C20753DC900BF5C08 /* LaunchScreen.storyboard */; };
@@ -243,6 +244,7 @@
 		150F76BA20755592001536CC /* TeacherList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TeacherList.swift; sourceTree = "<group>"; };
 		150F76BB20755592001536CC /* UserList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserList.swift; sourceTree = "<group>"; };
 		150F76BC20755592001536CC /* SG_NOTIFICATION_DATA.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SG_NOTIFICATION_DATA.swift; sourceTree = "<group>"; };
+		151307DF2081189200B6CF87 /* CC_UserChatVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CC_UserChatVC.swift; sourceTree = "<group>"; };
 		1514232520753D3700BF5C08 /* insider.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = insider.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1514232820753D3700BF5C08 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1514233420753D3700BF5C08 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -317,6 +319,7 @@
 				150F763720755463001536CC /* Student_GPA-Bridging-Header.h */,
 				150F76152075544D001536CC /* BaseTableViewCell.swift */,
 				150F6CAB20754DDB001536CC /* SG_SplashVC.swift */,
+				151307DF2081189200B6CF87 /* CC_UserChatVC.swift */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -706,6 +709,7 @@
 				150F76BE20755592001536CC /* GroupstudyviewCell.swift in Sources */,
 				150F76FA20755592001536CC /* TeacherList.swift in Sources */,
 				150F76E320755592001536CC /* UIImage+Additions.swift in Sources */,
+				151307E02081189200B6CF87 /* CC_UserChatVC.swift in Sources */,
 				150F76162075544D001536CC /* BaseTableViewCell.swift in Sources */,
 				150F76EA20755592001536CC /* UIBarButtonItem+Badge.m in Sources */,
 				150F76F820755592001536CC /* SG_POST_DATA.swift in Sources */,

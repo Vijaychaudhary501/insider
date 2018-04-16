@@ -63,6 +63,8 @@ class MainViewController: UIViewController {
         let tap = UITapGestureRecognizer(target: self, action: #selector(postdoubleTapped(gesture:)))
         tap.numberOfTapsRequired = 2
         postBtn.addGestureRecognizer(tap)
+        //self.navigationController?.navigationBar.isTranslucent = false
+        //UINavigationBar./TintColor = UIColor.red
         
         NotificationCenter.default.addObserver(self, selector: #selector(showNotification), name: NSNotification.Name(rawValue: "searchPost"), object: nil)
         NotificationCenter.default.addObserver(self, selector: #selector(searchPost), name: NSNotification.Name(rawValue: "searchFilter"), object: nil)
@@ -84,7 +86,16 @@ class MainViewController: UIViewController {
                     if let iIntSuccess = iData?.object(forKey: Constant.SUCCESS) as? NSNumber
                     {
                         if iIntSuccess == 1 {
- 
+                            if let postDetail = iDictPostData.object(forKey: "search_result") as? NSDictionary {
+                                if let record = postDetail.object(forKey: "records") as? NSArray{
+                                    self.postDataArray.removeAll()
+                                    for i in record {
+                                        let postdataModel = SG_POST_DATA(fromDictionary: (i) as! [String : Any])
+                                        self.postDataArray.append(postdataModel)
+                                    }
+                                }
+                            }
+                            self.tableView.reloadData()
                         }else {
                             let Alert = UIAlertController(title: "", message: iData?.object(forKey: Constant.MESSAGE) as? String, preferredStyle: UIAlertControllerStyle.alert)
                             
@@ -174,6 +185,11 @@ class MainViewController: UIViewController {
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
+        self.navigationController?.view.backgroundColor = UIColor.red
+        self.navigationController?.navigationBar.barTintColor = UIColor.red
+        self.navigationController?.navigationBar.tintColor = UIColor.white
+        UINavigationBar.appearance().titleTextAttributes = [NSForegroundColorAttributeName : UIColor.white]
+
         self.setNavigationBarItem()
         self.postListAPICall(page:0,postType:post_Type)
         self.getnotification()
@@ -634,7 +650,9 @@ extension MainViewController : UITableViewDataSource ,UIImagePickerControllerDel
     }
     @IBAction func btnSeting(_ sender:UIButton){
         self.performSegue(withIdentifier: "myprofileEdit", sender: nil)
-        
+    }
+    @IBAction func myClasses(_ sender:UIButton){
+        self.performSegue(withIdentifier: "myprofileClasses", sender: nil)
     }
     @objc func sendBtnTaped(sender:UIButton){
         if Utility.trim(str: postText) != "" {

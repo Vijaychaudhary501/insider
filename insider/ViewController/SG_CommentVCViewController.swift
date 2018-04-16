@@ -77,7 +77,7 @@ class SG_CommentVCViewController: UIViewController,UITextViewDelegate,UICollecti
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         self.navigationController?.navigationBar.isTranslucent = false
-        UINavigationBar.appearance().barTintColor = UIColor.red
+       // UINavigationBar.appearance().barTintColor = UIColor.red
         self.navigationController?.view.backgroundColor = UIColor.red
         self.navigationController?.navigationBar.barTintColor = UIColor.red
         

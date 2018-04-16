@@ -10,6 +10,8 @@ import UIKit
 
 class CC_UserChatVC: UIViewController {
 
+    @IBOutlet var tblvWchat:UITableView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 

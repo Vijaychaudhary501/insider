@@ -14,7 +14,7 @@ class ContactCell: UITableViewCell {
     
     @IBOutlet weak var selectImgView: UIImageView!
     
-    //@IBOutlet weak var profileImageView: RemoteImageView!
+    @IBOutlet weak var profileImageView: RemoteImageView!
     
     @IBOutlet weak var userLbl: UILabel!
     

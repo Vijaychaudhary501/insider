@@ -61,10 +61,10 @@ class SG_ClassesVC:  UIViewController,UITableViewDelegate,UITableViewDataSource,
         
         // Transperent NavigationBar
         //self.navigationController?.navigationBar.backgroundColor = UIColor.clear
-        self.navigationController?.navigationBar.setBackgroundImage(UIImage(), for: UIBarMetrics.default)
-        self.navigationController?.navigationBar.shadowImage = UIImage()
-        self.navigationController?.navigationBar.isTranslucent = true
-        self.navigationController?.view.backgroundColor = UIColor.clear
+//        self.navigationController?.navigationBar.setBackgroundImage(UIImage(), for: UIBarMetrics.default)
+//        self.navigationController?.navigationBar.shadowImage = UIImage()
+//        self.navigationController?.navigationBar.isTranslucent = true
+//        self.navigationController?.view.backgroundColor = UIColor.clear
         
         //Servicecall
         self.crnServiceCAll()
@@ -95,11 +95,6 @@ class SG_ClassesVC:  UIViewController,UITableViewDelegate,UITableViewDataSource,
         Utility.sharedInstance().setstatusbarColorClear()
         NotificationCenter.default.addObserver(self, selector: #selector(keyboardWillShow(_:)), name: NSNotification.Name.UIKeyboardDidShow, object: nil)
         NotificationCenter.default.addObserver(self, selector: #selector(keyboardWillHide(_:)), name: NSNotification.Name.UIKeyboardDidHide, object: nil)
-        self.navigationController?.navigationBar.backgroundColor = UIColor.clear
-        self.navigationController?.navigationBar.setBackgroundImage(UIImage(), for: UIBarMetrics.default)
-        self.navigationController?.navigationBar.shadowImage = UIImage()
-        self.navigationController?.navigationBar.isTranslucent = true
-        self.navigationController?.view.backgroundColor = UIColor.clear
         
     }
     override func viewDidDisappear(_ animated: Bool) {

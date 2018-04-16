@@ -47,7 +47,9 @@ class SG_MyClassVC: UIViewController ,UITableViewDataSource,UITableViewDelegate 
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         Utility.sharedInstance().setstatusbarColor()
-        self.navigationController?.navigationBar.backgroundColor = UIColor.red
+        self.navigationController?.view.backgroundColor = UIColor.red
+        self.navigationController?.navigationBar.barTintColor = UIColor.red
+
         NotificationCenter.default.addObserver(self, selector: #selector(self.showNotification(_:)), name: NSNotification.Name(rawValue: "updateClass"), object: nil)
     }
     // handle notification
