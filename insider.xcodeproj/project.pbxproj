@@ -123,6 +123,7 @@
 		1514234020753DC900BF5C08 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1514233A20753DC900BF5C08 /* Main.storyboard */; };
 		1514234120753DC900BF5C08 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1514233C20753DC900BF5C08 /* LaunchScreen.storyboard */; };
 		1514234220753DC900BF5C08 /* SG_Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1514233E20753DC900BF5C08 /* SG_Main.storyboard */; };
+		15C32FA0208B324200A013C6 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15C32F9F208B324200A013C6 /* SystemConfiguration.framework */; };
 		4D16A75094C785550610ED75 /* Pods_insider.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F22FAAFDBFB695003548E33A /* Pods_insider.framework */; };
 /* End PBXBuildFile section */
 
@@ -251,6 +252,7 @@
 		1514233B20753DC900BF5C08 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1514233D20753DC900BF5C08 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1514233F20753DC900BF5C08 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/SG_Main.storyboard; sourceTree = "<group>"; };
+		15C32F9F208B324200A013C6 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		3D3EA8E6B4F24E8F198C57DC /* Pods-insider.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-insider.release.xcconfig"; path = "Pods/Target Support Files/Pods-insider/Pods-insider.release.xcconfig"; sourceTree = "<group>"; };
 		C09EEE94709FB244671BD1ED /* Pods-insider.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-insider.debug.xcconfig"; path = "Pods/Target Support Files/Pods-insider/Pods-insider.debug.xcconfig"; sourceTree = "<group>"; };
 		F22FAAFDBFB695003548E33A /* Pods_insider.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_insider.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -261,6 +263,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				15C32FA0208B324200A013C6 /* SystemConfiguration.framework in Frameworks */,
 				4D16A75094C785550610ED75 /* Pods_insider.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -500,6 +503,7 @@
 		553FAF325E30CAEE958B5A17 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				15C32F9F208B324200A013C6 /* SystemConfiguration.framework */,
 				F22FAAFDBFB695003548E33A /* Pods_insider.framework */,
 			);
 			name = Frameworks;

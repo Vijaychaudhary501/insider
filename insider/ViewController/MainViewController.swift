@@ -890,9 +890,9 @@ extension MainViewController : UITableViewDataSource ,UIImagePickerControllerDel
         if let img = data as? UIImage {
             let newImage = self.rotateCameraImageToProperOrientation(imageSource : img, maxResolution : 1000.0)
             
-            let dictLoginParameter = NSDictionary(dictionary: ["tag":Constant.POST_CRETAE,"created_by":"\(Constant.USER_DEFAULT.value(forKey: Constant.USER_ID)!)","school_id":"\(Constant.USER_DEFAULT.value(forKey: Constant.SCHOOL_ID)!)","post_description":"","post_type":"photo","tagged_person":"","token":"\(Constant.USER_DEFAULT.value(forKey: Constant.ACCESS_TOKEN)!)","iv_count":"1"])
+            let dictLoginParameter = NSDictionary(dictionary: ["tag":Constant.POST_CRETAE,"created_by":"\(Constant.USER_DEFAULT.value(forKey: Constant.USER_ID)!)","school_id":"\(Constant.USER_DEFAULT.value(forKey: Constant.SCHOOL_ID)!)","post_description":"\(self.postText)","post_type":"photo","tagged_person":"","token":"\(Constant.USER_DEFAULT.value(forKey: Constant.ACCESS_TOKEN)!)","iv_count":"1"])
             print(dictLoginParameter)
-            WebServiceManager.callImageUploadWithParameterUsingMultipart(WSUrl: Constant.WS_POST, WSParams: dictLoginParameter, isLoader: true, iImgName:"post_files_1",iImage:newImage) { (iData, iError) in
+            WebServiceManager.callImageUploadWithParameterUsingMultipart(WSUrl: Constant.WS_POST, WSParams: dictLoginParameter, isLoader: true, iImgName:"post_files_",iImage:newImage) { (iData, iError) in
                 
                 if iError != nil {
                     print(iError?.localizedDescription ?? "")
