@@ -15,5 +15,5 @@ class ImageCollectionCell: UICollectionViewCell {
     
     @IBOutlet weak var addBtn: UIButton!
     
-    //@IBOutlet weak var storyProfImage: RemoteImageView!
+    @IBOutlet weak var storyProfImage: RemoteImageView!
 }

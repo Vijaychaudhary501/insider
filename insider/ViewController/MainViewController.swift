@@ -74,6 +74,11 @@ class MainViewController: UIViewController {
         
         self.performSegue(withIdentifier: "PostfilterVC", sender: nil)
     }
+    @IBAction func postImage(_ sender:UIButton){
+        //self.performSegue(withIdentifier: "FAImagepickerView", sender: nil)
+        let test = self.storyboard?.instantiateViewController(withIdentifier: "FAImageCropperSB")as! FAImageCropperVC
+        self.navigationController?.pushViewController(test, animated: true)
+    }
     func searchPost(_ notification: NSNotification) {
         var dictPostParameter = NSDictionary()
         if let str = notification.userInfo?["search"] as? String {
@@ -695,10 +700,7 @@ extension MainViewController : UITableViewDataSource ,UIImagePickerControllerDel
             let  commentVC = segue.destination as! SG_MypostVC
             commentVC.myPost = "\(postDataArray[cmntLblTag!].user_id)" == "\(Constant.USER_DEFAULT.value(forKey: Constant.USER_ID)!)"
             commentVC.postDataUser = postDataArray[cmntLblTag!]
-            
         }
-        
-        
     }
     
     
@@ -892,7 +894,7 @@ extension MainViewController : UITableViewDataSource ,UIImagePickerControllerDel
             
             let dictLoginParameter = NSDictionary(dictionary: ["tag":Constant.POST_CRETAE,"created_by":"\(Constant.USER_DEFAULT.value(forKey: Constant.USER_ID)!)","school_id":"\(Constant.USER_DEFAULT.value(forKey: Constant.SCHOOL_ID)!)","post_description":"\(self.postText)","post_type":"photo","tagged_person":"","token":"\(Constant.USER_DEFAULT.value(forKey: Constant.ACCESS_TOKEN)!)","iv_count":"1"])
             print(dictLoginParameter)
-            WebServiceManager.callImageUploadWithParameterUsingMultipart(WSUrl: Constant.WS_POST, WSParams: dictLoginParameter, isLoader: true, iImgName:"post_files_",iImage:newImage) { (iData, iError) in
+            WebServiceManager.callImageUploadWithParameterUsingMultipart(WSUrl: Constant.WS_POST, WSParams: dictLoginParameter, isLoader: true, iImgName:"post_files_",iImage:img) { (iData, iError) in
                 
                 if iError != nil {
                     print(iError?.localizedDescription ?? "")

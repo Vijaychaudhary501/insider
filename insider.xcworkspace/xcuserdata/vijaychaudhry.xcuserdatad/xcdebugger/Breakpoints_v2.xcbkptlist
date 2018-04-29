@@ -9,14 +9,94 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "insider/OtherClasses/Webservice/WebServiceManager.swift"
-            timestampString = "546109594.478044"
+            filePath = "insider/ViewController/MainViewController.swift"
+            timestampString = "546686496.9405169"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "105"
-            endingLineNumber = "105"
-            landmarkName = "unknown"
-            landmarkType = "0">
+            startingLineNumber = "695"
+            endingLineNumber = "695"
+            landmarkName = "prepare(for:sender:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../../Downloads/FAImageCropper-master/FAImageCropper/FAImageCropperVC.swift"
+            timestampString = "546686496.941442"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "64"
+            endingLineNumber = "64"
+            landmarkName = "addPhoto()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../../Downloads/FAImageCropper-master/FAImageCropper/FAImageCropperVC.swift"
+            timestampString = "546686496.941681"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "82"
+            endingLineNumber = "82"
+            landmarkName = "addPhoto()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;__ObjC.NSDictionary&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in insider.FAImageCropperVC.addPhoto() -&gt; ()"
+                  moduleName = "insider"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vijaychaudhry/Downloads/FAImageCropper-master/FAImageCropper/FAImageCropperVC.swift"
+                  timestampString = "546685963.92033"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "82"
+                  endingLineNumber = "82"
+                  offsetFromSymbolStart = "4558">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (__ObjC.UIAlertAction) -&gt; () in closure #1 (Swift.Optional&lt;__ObjC.NSDictionary&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in insider.FAImageCropperVC.addPhoto() -&gt; ()"
+                  moduleName = "insider"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vijaychaudhry/Downloads/FAImageCropper-master/FAImageCropper/FAImageCropperVC.swift"
+                  timestampString = "546685963.924687"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "82"
+                  endingLineNumber = "82"
+                  offsetFromSymbolStart = "12">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../../Downloads/FAImageCropper-master/FAImageCropper/FAImageCropperVC.swift"
+            timestampString = "546686496.941736"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "76"
+            endingLineNumber = "76"
+            landmarkName = "addPhoto()"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>
