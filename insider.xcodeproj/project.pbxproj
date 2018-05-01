@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1509201520987AD50084420A /* FAScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1509200F20987AD30084420A /* FAScrollView.swift */; };
+		1509201620987AD50084420A /* FAImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1509201020987AD30084420A /* FAImageLoader.swift */; };
+		1509201720987AD50084420A /* FADetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1509201120987AD30084420A /* FADetailVC.swift */; };
+		1509201820987AD50084420A /* FAImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1509201220987AD40084420A /* FAImageCell.swift */; };
+		1509201920987AD50084420A /* FAGridView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1509201320987AD40084420A /* FAGridView.xib */; };
+		1509201A20987AD50084420A /* FAImageCropperVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1509201420987AD40084420A /* FAImageCropperVC.swift */; };
 		150F6CAC20754DDB001536CC /* SG_SplashVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 150F6CAB20754DDB001536CC /* SG_SplashVC.swift */; };
 		150F6CAE20754E51001536CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 150F6CAD20754E50001536CC /* Assets.xcassets */; };
 		150F76162075544D001536CC /* BaseTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 150F76152075544D001536CC /* BaseTableViewCell.swift */; };
@@ -89,7 +95,6 @@
 		150F76DD20755592001536CC /* CommentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 150F769520755592001536CC /* CommentCell.swift */; };
 		150F76DE20755592001536CC /* WebServiceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 150F769720755592001536CC /* WebServiceManager.swift */; };
 		150F76DF20755592001536CC /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 150F769820755592001536CC /* Utility.swift */; };
-		150F76E020755592001536CC /* FAImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 150F769A20755592001536CC /* FAImageLoader.swift */; };
 		150F76E120755592001536CC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 150F769B20755592001536CC /* ViewController.swift */; };
 		150F76E220755592001536CC /* CornerpointView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 150F769C20755592001536CC /* CornerpointView.swift */; };
 		150F76E320755592001536CC /* UIImage+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 150F769D20755592001536CC /* UIImage+Additions.swift */; };
@@ -104,7 +109,6 @@
 		150F76EC20755592001536CC /* CroppableImageViewDelegateProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 150F76A920755592001536CC /* CroppableImageViewDelegateProtocol.swift */; };
 		150F76ED20755592001536CC /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 150F76AA20755592001536CC /* Reachability.swift */; };
 		150F76EE20755592001536CC /* UIButton+Badge.m in Sources */ = {isa = PBXBuildFile; fileRef = 150F76AB20755592001536CC /* UIButton+Badge.m */; };
-		150F76EF20755592001536CC /* FAScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 150F76AD20755592001536CC /* FAScrollView.swift */; };
 		150F76F020755592001536CC /* PostCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 150F76AE20755592001536CC /* PostCell.xib */; };
 		150F76F120755592001536CC /* RemoteImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 150F76AF20755592001536CC /* RemoteImageView.m */; };
 		150F76F220755592001536CC /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 150F76B020755592001536CC /* PostCell.swift */; };
@@ -123,15 +127,17 @@
 		1514234020753DC900BF5C08 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1514233A20753DC900BF5C08 /* Main.storyboard */; };
 		1514234120753DC900BF5C08 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1514233C20753DC900BF5C08 /* LaunchScreen.storyboard */; };
 		1514234220753DC900BF5C08 /* SG_Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1514233E20753DC900BF5C08 /* SG_Main.storyboard */; };
-		15151216209595CD008DE49D /* FAImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15151212209595CB008DE49D /* FAImageCell.swift */; };
-		15151217209595CD008DE49D /* FADetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15151213209595CB008DE49D /* FADetailVC.swift */; };
-		15151218209595CD008DE49D /* FAGridView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 15151214209595CC008DE49D /* FAGridView.xib */; };
-		15151219209595CD008DE49D /* FAImageCropperVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15151215209595CC008DE49D /* FAImageCropperVC.swift */; };
 		15C32FA0208B324200A013C6 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15C32F9F208B324200A013C6 /* SystemConfiguration.framework */; };
 		4D16A75094C785550610ED75 /* Pods_insider.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F22FAAFDBFB695003548E33A /* Pods_insider.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1509200F20987AD30084420A /* FAScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FAScrollView.swift; sourceTree = "<group>"; };
+		1509201020987AD30084420A /* FAImageLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FAImageLoader.swift; sourceTree = "<group>"; };
+		1509201120987AD30084420A /* FADetailVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FADetailVC.swift; sourceTree = "<group>"; };
+		1509201220987AD40084420A /* FAImageCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FAImageCell.swift; sourceTree = "<group>"; };
+		1509201320987AD40084420A /* FAGridView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FAGridView.xib; sourceTree = "<group>"; };
+		1509201420987AD40084420A /* FAImageCropperVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FAImageCropperVC.swift; sourceTree = "<group>"; };
 		150F6CAB20754DDB001536CC /* SG_SplashVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SG_SplashVC.swift; sourceTree = "<group>"; };
 		150F6CAD20754E50001536CC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		150F76152075544D001536CC /* BaseTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseTableViewCell.swift; sourceTree = "<group>"; };
@@ -216,7 +222,6 @@
 		150F769520755592001536CC /* CommentCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommentCell.swift; sourceTree = "<group>"; };
 		150F769720755592001536CC /* WebServiceManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebServiceManager.swift; sourceTree = "<group>"; };
 		150F769820755592001536CC /* Utility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utility.swift; sourceTree = "<group>"; };
-		150F769A20755592001536CC /* FAImageLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FAImageLoader.swift; sourceTree = "<group>"; };
 		150F769B20755592001536CC /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		150F769C20755592001536CC /* CornerpointView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CornerpointView.swift; sourceTree = "<group>"; };
 		150F769D20755592001536CC /* UIImage+Additions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Additions.swift"; sourceTree = "<group>"; };
@@ -234,7 +239,6 @@
 		150F76AA20755592001536CC /* Reachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
 		150F76AB20755592001536CC /* UIButton+Badge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Badge.m"; sourceTree = "<group>"; };
 		150F76AC20755592001536CC /* UIBarButtonItem+Badge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+Badge.h"; sourceTree = "<group>"; };
-		150F76AD20755592001536CC /* FAScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FAScrollView.swift; sourceTree = "<group>"; };
 		150F76AE20755592001536CC /* PostCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PostCell.xib; sourceTree = "<group>"; };
 		150F76AF20755592001536CC /* RemoteImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RemoteImageView.m; sourceTree = "<group>"; };
 		150F76B020755592001536CC /* PostCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
@@ -256,10 +260,6 @@
 		1514233B20753DC900BF5C08 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1514233D20753DC900BF5C08 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1514233F20753DC900BF5C08 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/SG_Main.storyboard; sourceTree = "<group>"; };
-		15151212209595CB008DE49D /* FAImageCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FAImageCell.swift; path = "../../../../../../Downloads/FAImageCropper-master/FAImageCropper/FAImageCell.swift"; sourceTree = "<group>"; };
-		15151213209595CB008DE49D /* FADetailVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FADetailVC.swift; path = "../../../../../../Downloads/FAImageCropper-master/FAImageCropper/FADetailVC.swift"; sourceTree = "<group>"; };
-		15151214209595CC008DE49D /* FAGridView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = FAGridView.xib; path = "../../../../../../Downloads/FAImageCropper-master/FAImageCropper/FAGridView.xib"; sourceTree = "<group>"; };
-		15151215209595CC008DE49D /* FAImageCropperVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FAImageCropperVC.swift; path = "../../../../../../Downloads/FAImageCropper-master/FAImageCropper/FAImageCropperVC.swift"; sourceTree = "<group>"; };
 		15C32F9F208B324200A013C6 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		3D3EA8E6B4F24E8F198C57DC /* Pods-insider.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-insider.release.xcconfig"; path = "Pods/Target Support Files/Pods-insider/Pods-insider.release.xcconfig"; sourceTree = "<group>"; };
 		C09EEE94709FB244671BD1ED /* Pods-insider.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-insider.debug.xcconfig"; path = "Pods/Target Support Files/Pods-insider/Pods-insider.debug.xcconfig"; sourceTree = "<group>"; };
@@ -414,11 +414,12 @@
 		150F769920755592001536CC /* Third Party */ = {
 			isa = PBXGroup;
 			children = (
-				15151213209595CB008DE49D /* FADetailVC.swift */,
-				15151214209595CC008DE49D /* FAGridView.xib */,
-				15151212209595CB008DE49D /* FAImageCell.swift */,
-				15151215209595CC008DE49D /* FAImageCropperVC.swift */,
-				150F769A20755592001536CC /* FAImageLoader.swift */,
+				1509201120987AD30084420A /* FADetailVC.swift */,
+				1509201320987AD40084420A /* FAGridView.xib */,
+				1509201220987AD40084420A /* FAImageCell.swift */,
+				1509201420987AD40084420A /* FAImageCropperVC.swift */,
+				1509201020987AD30084420A /* FAImageLoader.swift */,
+				1509200F20987AD30084420A /* FAScrollView.swift */,
 				150F769B20755592001536CC /* ViewController.swift */,
 				150F769C20755592001536CC /* CornerpointView.swift */,
 				150F769D20755592001536CC /* UIImage+Additions.swift */,
@@ -436,7 +437,6 @@
 				150F76AA20755592001536CC /* Reachability.swift */,
 				150F76AB20755592001536CC /* UIButton+Badge.m */,
 				150F76AC20755592001536CC /* UIBarButtonItem+Badge.h */,
-				150F76AD20755592001536CC /* FAScrollView.swift */,
 				150F76AE20755592001536CC /* PostCell.xib */,
 				150F76AF20755592001536CC /* RemoteImageView.m */,
 				150F76B020755592001536CC /* PostCell.swift */,
@@ -584,7 +584,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				150F765E20755465001536CC /* DataTableViewCell.xib in Resources */,
-				15151218209595CD008DE49D /* FAGridView.xib in Resources */,
+				1509201920987AD50084420A /* FAGridView.xib in Resources */,
 				150F76C420755592001536CC /* ViewGroupStudyCell.xib in Resources */,
 				1514234020753DC900BF5C08 /* Main.storyboard in Resources */,
 				150F76DB20755592001536CC /* SG_VideoCellTableViewCell.xib in Resources */,
@@ -689,6 +689,7 @@
 				150F76EB20755592001536CC /* CroppableImageView.swift in Sources */,
 				150F764520755465001536CC /* EditPostVC.swift in Sources */,
 				150F766020755465001536CC /* LeftViewController.swift in Sources */,
+				1509201620987AD50084420A /* FAImageLoader.swift in Sources */,
 				150F76DE20755592001536CC /* WebServiceManager.swift in Sources */,
 				150F76BF20755592001536CC /* Menubar_Cell.swift in Sources */,
 				150F76D020755592001536CC /* NotificationCell.swift in Sources */,
@@ -702,8 +703,6 @@
 				150F76D520755592001536CC /* SG_VideoCellTableViewCell.swift in Sources */,
 				150F765720755465001536CC /* SlideMenuController.swift in Sources */,
 				1514232920753D3700BF5C08 /* AppDelegate.swift in Sources */,
-				150F76E020755592001536CC /* FAImageLoader.swift in Sources */,
-				15151217209595CD008DE49D /* FADetailVC.swift in Sources */,
 				150F76E420755592001536CC /* PickerView.swift in Sources */,
 				150F766C20755465001536CC /* SG_CreateProfileVC.swift in Sources */,
 				150F766E20755465001536CC /* SG_SelectPhotoVC.swift in Sources */,
@@ -711,6 +710,7 @@
 				150F76F420755592001536CC /* CC_Model_UserList.swift in Sources */,
 				150F76DF20755592001536CC /* Utility.swift in Sources */,
 				150F765620755465001536CC /* SG_FilterviewVC.swift in Sources */,
+				1509201520987AD50084420A /* FAScrollView.swift in Sources */,
 				150F76C820755592001536CC /* MyProfileCell.swift in Sources */,
 				150F76C020755592001536CC /* SearchCell.swift in Sources */,
 				150F76C720755592001536CC /* ContactCell.swift in Sources */,
@@ -718,7 +718,6 @@
 				150F764E20755465001536CC /* SG_MessagesVC.swift in Sources */,
 				150F766520755465001536CC /* SG_ClassesVC.swift in Sources */,
 				150F76F220755592001536CC /* PostCell.swift in Sources */,
-				150F76EF20755592001536CC /* FAScrollView.swift in Sources */,
 				150F76E120755592001536CC /* ViewController.swift in Sources */,
 				150F76FB20755592001536CC /* UserList.swift in Sources */,
 				150F76CC20755592001536CC /* ImageCollectionCell.swift in Sources */,
@@ -742,8 +741,10 @@
 				150F6CAC20754DDB001536CC /* SG_SplashVC.swift in Sources */,
 				150F766920755465001536CC /* BaseViewController.swift in Sources */,
 				150F76E220755592001536CC /* CornerpointView.swift in Sources */,
+				1509201720987AD50084420A /* FADetailVC.swift in Sources */,
 				150F766320755465001536CC /* LoginViewController.swift in Sources */,
 				150F76F520755592001536CC /* PriviousClassList.swift in Sources */,
+				1509201820987AD50084420A /* FAImageCell.swift in Sources */,
 				150F765820755465001536CC /* SG_SelectedVideoVC.swift in Sources */,
 				150F764B20755465001536CC /* SG_OnlyMyPostVC.swift in Sources */,
 				150F76C920755592001536CC /* InsightCell.swift in Sources */,
@@ -755,8 +756,8 @@
 				150F76EC20755592001536CC /* CroppableImageViewDelegateProtocol.swift in Sources */,
 				150F76E520755592001536CC /* SwiftyCamViewController.swift in Sources */,
 				150F765220755465001536CC /* DataTableViewCell.swift in Sources */,
+				1509201A20987AD50084420A /* FAImageCropperVC.swift in Sources */,
 				150F76FC20755592001536CC /* SG_NOTIFICATION_DATA.swift in Sources */,
-				15151219209595CD008DE49D /* FAImageCropperVC.swift in Sources */,
 				150F766F20755465001536CC /* ExSlideMenuController.swift in Sources */,
 				150F766B20755465001536CC /* SG_LoginVC.swift in Sources */,
 				150F765B20755465001536CC /* SG_ForgotPasswordVC.swift in Sources */,
@@ -767,7 +768,6 @@
 				150F764820755465001536CC /* SG_UpdateProfileVC.swift in Sources */,
 				150F765C20755465001536CC /* MainViewController.swift in Sources */,
 				150F766120755465001536CC /* SG_InsightVC.swift in Sources */,
-				15151216209595CD008DE49D /* FAImageCell.swift in Sources */,
 				150F765920755465001536CC /* SG_UserClassVC.swift in Sources */,
 				150F76F620755592001536CC /* SG_USER_DETAIL.swift in Sources */,
 				150F766D20755465001536CC /* SG_ClassStudentVC.swift in Sources */,

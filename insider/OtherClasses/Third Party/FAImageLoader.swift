@@ -24,7 +24,6 @@ class FAImageLoader: NSObject {
         
         let fetchOptions: PHFetchOptions = PHFetchOptions()
         fetchOptions.sortDescriptors = [NSSortDescriptor(key: "creationDate", ascending: false)]
-        //let fe =  PHAsset.fetchA
         let fetchResult = PHAsset.fetchAssets(with: .image, options: fetchOptions)
         fetchResult.enumerateObjects({ (object, index, stop) -> Void in
             self.assets.append(object)

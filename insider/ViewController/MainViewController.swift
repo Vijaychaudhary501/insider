@@ -341,8 +341,10 @@ extension MainViewController : UITableViewDataSource ,UIImagePickerControllerDel
     }
      
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        if CTView.isHidden == false{
+        if CTView.isHidden == false {
+            
             let cell = self.CTableView.dequeueReusableCell(withIdentifier: "NotificationCell") as! NotificationCell
+            if notificationDataArray.count>indexPath.row{
             if self.notificationDataArray[indexPath.row].photo == "" {
                 
             }else {
@@ -351,6 +353,7 @@ extension MainViewController : UITableViewDataSource ,UIImagePickerControllerDel
             cell.userNameLbl.text = notificationDataArray[indexPath.row].notification_text
             cell.timeLbl.textColor = UIColor.init(hexString: "21409a")
             cell.timeLbl.text = notificationDataArray[indexPath.row].created_date
+            }
             return cell
         }
         else{

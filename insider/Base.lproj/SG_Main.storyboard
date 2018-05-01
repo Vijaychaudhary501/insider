@@ -2276,10 +2276,10 @@
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <subviews>
                                                         <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="EDJ-Ds-OUk" customClass="RemoteImageView">
-                                                            <rect key="frame" x="0.0" y="0.0" width="60" height="60"/>
+                                                            <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
                                                         </imageView>
                                                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="38j-cO-cht">
-                                                            <rect key="frame" x="35" y="0.0" width="25" height="25"/>
+                                                            <rect key="frame" x="975" y="0.0" width="25" height="25"/>
                                                             <constraints>
                                                                 <constraint firstAttribute="height" constant="25" id="Isk-rR-o1W"/>
                                                                 <constraint firstAttribute="width" constant="25" id="oI6-bu-eiW"/>
